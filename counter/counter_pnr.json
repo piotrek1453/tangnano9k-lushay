@@ -53,6 +53,25 @@
         }
       },
       "cells": {
+        "delay_counter_DFFR_Q_passthrough_lut$": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "00000000000000001111111100000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X6Y16/LUT5"
+          },
+          "port_directions": {
+            "F": "output",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 7943 ],
+            "I3": [ 7581 ]
+          }
+        },
         "delay_counter_DFFR_Q_1_passthrough_lut$": {
           "hide_name": 0,
           "type": "LUT4",
@@ -61,15 +80,34 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X6Y17/LUT5"
+            "NEXTPNR_BEL": "X6Y16/LUT4"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7949 ],
+            "F": [ 7941 ],
             "I3": [ 7586 ]
+          }
+        },
+        "delay_counter_DFFR_Q_15_passthrough_lut$": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "00000000000000001111111100000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X3Y15/LUT1"
+          },
+          "port_directions": {
+            "F": "output",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 7939 ],
+            "I3": [ 7617 ]
           }
         },
         "delay_counter_DFFR_Q_19_passthrough_lut$": {
@@ -80,53 +118,15 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X3Y16/LUT2"
+            "NEXTPNR_BEL": "X3Y15/LUT4"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7947 ],
+            "F": [ 7937 ],
             "I3": [ 7637 ]
-          }
-        },
-        "delay_counter_DFFR_Q_2_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X6Y17/LUT4"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7945 ],
-            "I3": [ 7645 ]
-          }
-        },
-        "delay_counter_DFFR_Q_24_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X2Y16/LUT2"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7943 ],
-            "I3": [ 7668 ]
           }
         },
         "delay_counter_DFFR_Q_25_passthrough_lut$": {
@@ -137,18 +137,18 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X2Y16/LUT0"
+            "NEXTPNR_BEL": "X2Y15/LUT1"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7941 ],
+            "F": [ 7935 ],
             "I3": [ 7673 ]
           }
         },
-        "delay_counter_DFFR_Q_27_passthrough_lut$": {
+        "delay_counter_DFFR_Q_7_passthrough_lut$": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -156,34 +156,15 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y16/LUT5"
+            "NEXTPNR_BEL": "X5Y15/LUT2"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7939 ],
-            "I3": [ 7683 ]
-          }
-        },
-        "delay_counter_DFFR_Q_30_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y16/LUT4"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7937 ],
-            "I3": [ 7710 ]
+            "F": [ 7933 ],
+            "I3": [ 7846 ]
           }
         },
         "led_buffer_DFFE_Q_passthrough_lut$": {
@@ -194,15 +175,15 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y15/LUT1"
+            "NEXTPNR_BEL": "X1Y14/LUT4"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7935 ],
-            "I3": [ 7878 ]
+            "F": [ 7931 ],
+            "I3": [ 7860 ]
           }
         },
         "led_buffer_DFFSE_Q_passthrough_lut$": {
@@ -213,45 +194,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y16/LUT3"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7933 ],
-            "I3": [ 7860 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_1_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y20/LUT1"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7931 ],
-            "I3": [ 7863 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_2_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y20/LUT0"
+            "NEXTPNR_BEL": "X1Y20/LUT4"
           },
           "port_directions": {
             "F": "output",
@@ -259,10 +202,10 @@
           },
           "connections": {
             "F": [ 7929 ],
-            "I3": [ 7866 ]
+            "I3": [ 7863 ]
           }
         },
-        "led_buffer_DFFSE_Q_3_passthrough_lut$": {
+        "led_buffer_DFFSE_Q_1_passthrough_lut$": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -278,7 +221,45 @@
           },
           "connections": {
             "F": [ 7927 ],
+            "I3": [ 7866 ]
+          }
+        },
+        "led_buffer_DFFSE_Q_2_passthrough_lut$": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "00000000000000001111111100000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X1Y20/LUT2"
+          },
+          "port_directions": {
+            "F": "output",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 7925 ],
             "I3": [ 7869 ]
+          }
+        },
+        "led_buffer_DFFSE_Q_3_passthrough_lut$": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "00000000000000001111111100000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000101",
+            "NEXTPNR_BEL": "X1Y15/LUT4"
+          },
+          "port_directions": {
+            "F": "output",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 7923 ],
+            "I3": [ 7872 ]
           }
         },
         "led_buffer_DFFSE_Q_4_passthrough_lut$": {
@@ -289,33 +270,14 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y19/LUT2"
+            "NEXTPNR_BEL": "X1Y14/LUT1"
           },
           "port_directions": {
             "F": "output",
             "I3": "input"
           },
           "connections": {
-            "F": [ 7925 ],
-            "I3": [ 7872 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_5_passthrough_lut$": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "00000000000000001111111100000000"
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000101",
-            "NEXTPNR_BEL": "X1Y15/LUT5"
-          },
-          "port_directions": {
-            "F": "output",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 7923 ],
+            "F": [ 7921 ],
             "I3": [ 7875 ]
           }
         },
@@ -327,7 +289,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/ALU3"
+            "NEXTPNR_BEL": "X6Y16/ALU3"
           },
           "port_directions": {
           },
@@ -342,15 +304,15 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU0"
+            "NEXTPNR_BEL": "X1Y16/ALU0"
           },
           "port_directions": {
             "I2": "input",
             "COUT": "output"
           },
           "connections": {
-            "I2": [ 7903 ],
-            "COUT": [ 7910 ]
+            "I2": [ 7901 ],
+            "COUT": [ 7908 ]
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_TAIL_ALULC": {
@@ -361,7 +323,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X7Y15/ALU3"
+            "NEXTPNR_BEL": "X6Y17/ALU3"
           },
           "port_directions": {
             "I2": "input",
@@ -370,9 +332,9 @@
             "COUT": "output"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7811 ],
-            "CIN": [ 7909 ],
+            "CIN": [ 7907 ],
             "COUT": [  ]
           }
         },
@@ -384,15 +346,15 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU0"
+            "NEXTPNR_BEL": "X1Y17/ALU0"
           },
           "port_directions": {
             "I2": "input",
             "COUT": "output"
           },
           "connections": {
-            "I2": [ 7903 ],
-            "COUT": [ 7908 ]
+            "I2": [ 7901 ],
+            "COUT": [ 7906 ]
           }
         },
         "GSR": {
@@ -408,7 +370,7 @@
             "GSRI": "input"
           },
           "connections": {
-            "GSRI": [ 7903 ]
+            "GSRI": [ 7901 ]
           }
         },
         "$PACKER_VCC_DRV": {
@@ -424,33 +386,7 @@
             "V": "output"
           },
           "connections": {
-            "V": [ 7903 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_5": {
-          "hide_name": 0,
-          "type": "DFFSE",
-          "parameters": {
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y15/DFF5",
-            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
-            "module_not_derived": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "SET": "input",
-            "Q": "output",
-            "D": "input",
-            "CLK": "input",
-            "CE": "input"
-          },
-          "connections": {
-            "SET": [ 7904 ],
-            "Q": [ 7872 ],
-            "D": [ 7923 ],
-            "CLK": [ 7578 ],
-            "CE": [ 7583 ]
+            "V": [ 7901 ]
           }
         },
         "led_buffer_DFFSE_Q_4": {
@@ -460,7 +396,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y19/DFF2",
+            "NEXTPNR_BEL": "X1Y14/DFF1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -472,14 +408,66 @@
             "CE": "input"
           },
           "connections": {
-            "SET": [ 7904 ],
-            "Q": [ 7869 ],
-            "D": [ 7925 ],
+            "SET": [ 7902 ],
+            "Q": [ 7872 ],
+            "D": [ 7921 ],
             "CLK": [ 7578 ],
             "CE": [ 7583 ]
           }
         },
         "led_buffer_DFFSE_Q_3": {
+          "hide_name": 0,
+          "type": "DFFSE",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X1Y15/DFF4",
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
+            "module_not_derived": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "SET": "input",
+            "Q": "output",
+            "D": "input",
+            "CLK": "input",
+            "CE": "input"
+          },
+          "connections": {
+            "SET": [ 7902 ],
+            "Q": [ 7869 ],
+            "D": [ 7923 ],
+            "CLK": [ 7578 ],
+            "CE": [ 7583 ]
+          }
+        },
+        "led_buffer_DFFSE_Q_2": {
+          "hide_name": 0,
+          "type": "DFFSE",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "X1Y20/DFF2",
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
+            "module_not_derived": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "SET": "input",
+            "Q": "output",
+            "D": "input",
+            "CLK": "input",
+            "CE": "input"
+          },
+          "connections": {
+            "SET": [ 7902 ],
+            "Q": [ 7866 ],
+            "D": [ 7925 ],
+            "CLK": [ 7578 ],
+            "CE": [ 7583 ]
+          }
+        },
+        "led_buffer_DFFSE_Q_1": {
           "hide_name": 0,
           "type": "DFFSE",
           "parameters": {
@@ -498,61 +486,9 @@
             "CE": "input"
           },
           "connections": {
-            "SET": [ 7904 ],
-            "Q": [ 7866 ],
-            "D": [ 7927 ],
-            "CLK": [ 7578 ],
-            "CE": [ 7583 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_2": {
-          "hide_name": 0,
-          "type": "DFFSE",
-          "parameters": {
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y20/DFF0",
-            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
-            "module_not_derived": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "SET": "input",
-            "Q": "output",
-            "D": "input",
-            "CLK": "input",
-            "CE": "input"
-          },
-          "connections": {
-            "SET": [ 7904 ],
+            "SET": [ 7902 ],
             "Q": [ 7863 ],
-            "D": [ 7929 ],
-            "CLK": [ 7578 ],
-            "CE": [ 7583 ]
-          }
-        },
-        "led_buffer_DFFSE_Q_1": {
-          "hide_name": 0,
-          "type": "DFFSE",
-          "parameters": {
-          },
-          "attributes": {
-            "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y20/DFF1",
-            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
-            "module_not_derived": "00000000000000000000000000000001"
-          },
-          "port_directions": {
-            "SET": "input",
-            "Q": "output",
-            "D": "input",
-            "CLK": "input",
-            "CE": "input"
-          },
-          "connections": {
-            "SET": [ 7904 ],
-            "Q": [ 7860 ],
-            "D": [ 7931 ],
+            "D": [ 7927 ],
             "CLK": [ 7578 ],
             "CE": [ 7583 ]
           }
@@ -564,7 +500,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y16/DFF3",
+            "NEXTPNR_BEL": "X1Y20/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:67.8-67.66",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -576,9 +512,9 @@
             "CE": "input"
           },
           "connections": {
-            "SET": [ 7904 ],
-            "Q": [ 7878 ],
-            "D": [ 7933 ],
+            "SET": [ 7902 ],
+            "Q": [ 7860 ],
+            "D": [ 7929 ],
             "CLK": [ 7578 ],
             "CE": [ 7583 ]
           }
@@ -590,7 +526,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y15/DFF1",
+            "NEXTPNR_BEL": "X1Y14/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -602,7 +538,7 @@
           },
           "connections": {
             "Q": [ 7875 ],
-            "D": [ 7935 ],
+            "D": [ 7931 ],
             "CLK": [ 7578 ],
             "CE": [ 7583 ]
           }
@@ -764,7 +700,7 @@
             "G": "output"
           },
           "connections": {
-            "G": [ 7904 ]
+            "G": [ 7902 ]
           }
         },
         "delay_counter_DFFR_Q_D_ALU_SUM": {
@@ -775,7 +711,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/ALU2",
+            "NEXTPNR_BEL": "X6Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -789,11 +725,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7581 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7582 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7857 ],
             "CIN": [ 7643 ]
           }
@@ -806,7 +742,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU5",
+            "NEXTPNR_BEL": "X4Y16/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -820,11 +756,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7854 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7778 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7852 ],
             "CIN": [ 7593 ]
           }
@@ -836,7 +772,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF5",
+            "NEXTPNR_BEL": "X4Y16/DFF5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -861,7 +797,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU0",
+            "NEXTPNR_BEL": "X5Y16/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -875,11 +811,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7850 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7782 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7848 ],
             "CIN": [ 7852 ]
           }
@@ -891,7 +827,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF0",
+            "NEXTPNR_BEL": "X5Y16/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -916,7 +852,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU1",
+            "NEXTPNR_BEL": "X5Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -930,11 +866,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7846 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7786 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7844 ],
             "CIN": [ 7848 ]
           }
@@ -946,7 +882,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF1",
+            "NEXTPNR_BEL": "X5Y15/DFF2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -959,7 +895,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7786 ],
-            "D": [ 7846 ],
+            "D": [ 7933 ],
             "CLK": [ 7578 ]
           }
         },
@@ -971,7 +907,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU2",
+            "NEXTPNR_BEL": "X5Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -985,11 +921,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7842 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7790 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7840 ],
             "CIN": [ 7844 ]
           }
@@ -1001,7 +937,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF2",
+            "NEXTPNR_BEL": "X5Y16/DFF2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1026,7 +962,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU3",
+            "NEXTPNR_BEL": "X5Y16/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1040,11 +976,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7838 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7794 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7836 ],
             "CIN": [ 7840 ]
           }
@@ -1056,7 +992,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF3",
+            "NEXTPNR_BEL": "X5Y16/DFF3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1081,7 +1017,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU4",
+            "NEXTPNR_BEL": "X5Y16/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1095,11 +1031,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7834 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7798 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7832 ],
             "CIN": [ 7836 ]
           }
@@ -1111,7 +1047,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF4",
+            "NEXTPNR_BEL": "X5Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1136,7 +1072,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/ALU5",
+            "NEXTPNR_BEL": "X5Y16/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1150,11 +1086,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7707 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7708 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7705 ],
             "CIN": [ 7832 ]
           }
@@ -1167,7 +1103,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y16/LUT0",
+            "NEXTPNR_BEL": "X1Y15/LUT0",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:135.23-136.15",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1187,7 +1123,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y16/DFF0",
+            "NEXTPNR_BEL": "X1Y15/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1212,7 +1148,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y16/LUT6",
+            "NEXTPNR_BEL": "X2Y16/LUT6",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:143.23-144.37",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1237,7 +1173,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y16/LUT6",
+            "NEXTPNR_BEL": "X4Y16/LUT7",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:143.23-144.37",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1262,7 +1198,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y16/LUT7",
+            "NEXTPNR_BEL": "X2Y15/LUT7",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:139.23-140.26",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1285,7 +1221,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y16/LUT4",
+            "NEXTPNR_BEL": "X2Y16/LUT7",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:143.23-144.37",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1310,7 +1246,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y16/LUT5",
+            "NEXTPNR_BEL": "X3Y16/LUT6",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:147.23-148.48",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1337,7 +1273,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y16/LUT0",
+            "NEXTPNR_BEL": "X4Y15/LUT7",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:139.23-140.26",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1360,7 +1296,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y16/LUT3",
+            "NEXTPNR_BEL": "X4Y15/LUT1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:139.23-140.26",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1383,7 +1319,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y16/LUT1",
+            "NEXTPNR_BEL": "X4Y16/LUT6",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:143.23-144.37",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1408,7 +1344,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X7Y15/ALU2",
+            "NEXTPNR_BEL": "X6Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1422,12 +1358,12 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7812 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7582 ],
-            "I0": [ 7904 ],
-            "COUT": [ 7909 ],
+            "I0": [ 7902 ],
+            "COUT": [ 7907 ],
             "CIN": [ 7807 ]
           }
         },
@@ -1439,7 +1375,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X7Y15/ALU1",
+            "NEXTPNR_BEL": "X6Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1453,11 +1389,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7808 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7587 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7807 ],
             "CIN": [ 7804 ]
           }
@@ -1470,7 +1406,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X7Y15/ALU0",
+            "NEXTPNR_BEL": "X6Y17/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1484,11 +1420,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7805 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7646 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7804 ],
             "CIN": [ 7801 ]
           }
@@ -1501,7 +1437,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU5",
+            "NEXTPNR_BEL": "X5Y17/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1515,11 +1451,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7802 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7708 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7801 ],
             "CIN": [ 7797 ]
           }
@@ -1532,7 +1468,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU4",
+            "NEXTPNR_BEL": "X5Y17/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1546,11 +1482,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7799 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7798 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7797 ],
             "CIN": [ 7793 ]
           }
@@ -1563,7 +1499,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU3",
+            "NEXTPNR_BEL": "X5Y17/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1577,11 +1513,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7795 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7794 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7793 ],
             "CIN": [ 7789 ]
           }
@@ -1594,7 +1530,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU2",
+            "NEXTPNR_BEL": "X5Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1608,11 +1544,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7791 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7790 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7789 ],
             "CIN": [ 7785 ]
           }
@@ -1625,7 +1561,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU1",
+            "NEXTPNR_BEL": "X5Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1639,11 +1575,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7787 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7786 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7785 ],
             "CIN": [ 7781 ]
           }
@@ -1656,7 +1592,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y15/ALU0",
+            "NEXTPNR_BEL": "X5Y17/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1670,11 +1606,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7783 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7782 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7781 ],
             "CIN": [ 7777 ]
           }
@@ -1687,7 +1623,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU5",
+            "NEXTPNR_BEL": "X4Y17/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1701,11 +1637,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7779 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7778 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7777 ],
             "CIN": [ 7774 ]
           }
@@ -1718,7 +1654,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU4",
+            "NEXTPNR_BEL": "X4Y17/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1732,11 +1668,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7775 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7590 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7774 ],
             "CIN": [ 7771 ]
           }
@@ -1749,7 +1685,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU3",
+            "NEXTPNR_BEL": "X4Y17/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1763,11 +1699,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7772 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7598 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7771 ],
             "CIN": [ 7768 ]
           }
@@ -1780,7 +1716,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU2",
+            "NEXTPNR_BEL": "X4Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1794,11 +1730,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7769 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7603 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7768 ],
             "CIN": [ 7765 ]
           }
@@ -1811,7 +1747,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU1",
+            "NEXTPNR_BEL": "X4Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1825,11 +1761,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7766 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7608 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7765 ],
             "CIN": [ 7762 ]
           }
@@ -1842,7 +1778,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y15/ALU0",
+            "NEXTPNR_BEL": "X4Y17/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1856,11 +1792,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7763 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7613 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7762 ],
             "CIN": [ 7759 ]
           }
@@ -1873,7 +1809,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU5",
+            "NEXTPNR_BEL": "X3Y17/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1887,11 +1823,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7760 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7618 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7759 ],
             "CIN": [ 7756 ]
           }
@@ -1904,7 +1840,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU4",
+            "NEXTPNR_BEL": "X3Y17/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1918,11 +1854,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7757 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7623 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7756 ],
             "CIN": [ 7753 ]
           }
@@ -1935,7 +1871,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU3",
+            "NEXTPNR_BEL": "X3Y17/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1949,11 +1885,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7754 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7628 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7753 ],
             "CIN": [ 7750 ]
           }
@@ -1966,7 +1902,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU2",
+            "NEXTPNR_BEL": "X3Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -1980,11 +1916,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7751 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7633 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7750 ],
             "CIN": [ 7747 ]
           }
@@ -1997,7 +1933,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU1",
+            "NEXTPNR_BEL": "X3Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2011,11 +1947,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7748 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7638 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7747 ],
             "CIN": [ 7744 ]
           }
@@ -2028,7 +1964,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y15/ALU0",
+            "NEXTPNR_BEL": "X3Y17/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2042,11 +1978,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7745 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7649 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7744 ],
             "CIN": [ 7741 ]
           }
@@ -2059,7 +1995,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU5",
+            "NEXTPNR_BEL": "X2Y17/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2073,11 +2009,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7742 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7654 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7741 ],
             "CIN": [ 7738 ]
           }
@@ -2090,7 +2026,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU4",
+            "NEXTPNR_BEL": "X2Y17/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2104,11 +2040,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7739 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7659 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7738 ],
             "CIN": [ 7735 ]
           }
@@ -2121,7 +2057,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU3",
+            "NEXTPNR_BEL": "X2Y17/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2135,11 +2071,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7736 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7664 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7735 ],
             "CIN": [ 7732 ]
           }
@@ -2152,7 +2088,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU2",
+            "NEXTPNR_BEL": "X2Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2166,11 +2102,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7733 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7669 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7732 ],
             "CIN": [ 7729 ]
           }
@@ -2183,7 +2119,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU1",
+            "NEXTPNR_BEL": "X2Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2197,11 +2133,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7730 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7674 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7729 ],
             "CIN": [ 7726 ]
           }
@@ -2214,7 +2150,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y15/ALU0",
+            "NEXTPNR_BEL": "X2Y17/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2228,11 +2164,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7727 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7679 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7726 ],
             "CIN": [ 7723 ]
           }
@@ -2245,7 +2181,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU5",
+            "NEXTPNR_BEL": "X1Y17/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2259,11 +2195,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7724 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7684 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7723 ],
             "CIN": [ 7720 ]
           }
@@ -2276,7 +2212,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU4",
+            "NEXTPNR_BEL": "X1Y17/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2290,11 +2226,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7721 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7689 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7720 ],
             "CIN": [ 7717 ]
           }
@@ -2307,7 +2243,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU3",
+            "NEXTPNR_BEL": "X1Y17/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2321,11 +2257,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7718 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7694 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7717 ],
             "CIN": [ 7713 ]
           }
@@ -2338,7 +2274,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU1",
+            "NEXTPNR_BEL": "X1Y17/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2352,13 +2288,13 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7715 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7702 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7712 ],
-            "CIN": [ 7908 ]
+            "CIN": [ 7906 ]
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM": {
@@ -2369,7 +2305,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y15/ALU2",
+            "NEXTPNR_BEL": "X1Y17/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2383,11 +2319,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7710 ],
-            "I3": [ 7904 ],
+            "I3": [ 7902 ],
             "I1": [ 7699 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7713 ],
             "CIN": [ 7712 ]
           }
@@ -2399,7 +2335,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y16/DFF4",
+            "NEXTPNR_BEL": "X1Y17/DFF2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2412,7 +2348,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7699 ],
-            "D": [ 7937 ],
+            "D": [ 7710 ],
             "CLK": [ 7578 ]
           }
         },
@@ -2423,7 +2359,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X5Y17/DFF5",
+            "NEXTPNR_BEL": "X5Y16/DFF5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2448,7 +2384,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/ALU0",
+            "NEXTPNR_BEL": "X6Y16/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2462,11 +2398,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7645 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7646 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7642 ],
             "CIN": [ 7705 ]
           }
@@ -2479,7 +2415,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU1",
+            "NEXTPNR_BEL": "X1Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2493,13 +2429,13 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7703 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7702 ],
-            "I0": [ 7903 ],
+            "I0": [ 7901 ],
             "COUT": [ 7698 ],
-            "CIN": [ 7910 ]
+            "CIN": [ 7908 ]
           }
         },
         "delay_counter_DFFR_Q_29_D_ALU_SUM_CIN_ALU_COUT": {
@@ -2510,7 +2446,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU2",
+            "NEXTPNR_BEL": "X1Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2524,11 +2460,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7700 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7699 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7696 ],
             "CIN": [ 7698 ]
           }
@@ -2541,7 +2477,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU3",
+            "NEXTPNR_BEL": "X1Y16/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2555,11 +2491,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7693 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7694 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7691 ],
             "CIN": [ 7696 ]
           }
@@ -2571,7 +2507,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/DFF3",
+            "NEXTPNR_BEL": "X1Y16/DFF3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2596,7 +2532,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU4",
+            "NEXTPNR_BEL": "X1Y16/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2610,11 +2546,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7688 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7689 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7686 ],
             "CIN": [ 7691 ]
           }
@@ -2626,7 +2562,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/DFF4",
+            "NEXTPNR_BEL": "X1Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2651,7 +2587,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X1Y17/ALU5",
+            "NEXTPNR_BEL": "X1Y16/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2665,11 +2601,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7683 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7684 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7681 ],
             "CIN": [ 7686 ]
           }
@@ -2694,7 +2630,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7684 ],
-            "D": [ 7939 ],
+            "D": [ 7683 ],
             "CLK": [ 7578 ]
           }
         },
@@ -2706,7 +2642,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU0",
+            "NEXTPNR_BEL": "X2Y16/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2720,11 +2656,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7678 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7679 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7676 ],
             "CIN": [ 7681 ]
           }
@@ -2736,7 +2672,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/DFF0",
+            "NEXTPNR_BEL": "X2Y16/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2761,7 +2697,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU1",
+            "NEXTPNR_BEL": "X2Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2775,11 +2711,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7673 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7674 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7671 ],
             "CIN": [ 7676 ]
           }
@@ -2791,7 +2727,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y16/DFF0",
+            "NEXTPNR_BEL": "X2Y15/DFF1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2804,7 +2740,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7674 ],
-            "D": [ 7941 ],
+            "D": [ 7935 ],
             "CLK": [ 7578 ]
           }
         },
@@ -2816,7 +2752,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU2",
+            "NEXTPNR_BEL": "X2Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2830,11 +2766,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7668 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7669 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7666 ],
             "CIN": [ 7671 ]
           }
@@ -2859,7 +2795,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7669 ],
-            "D": [ 7943 ],
+            "D": [ 7668 ],
             "CLK": [ 7578 ]
           }
         },
@@ -2871,7 +2807,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU3",
+            "NEXTPNR_BEL": "X2Y16/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2885,11 +2821,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7663 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7664 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7661 ],
             "CIN": [ 7666 ]
           }
@@ -2901,7 +2837,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/DFF3",
+            "NEXTPNR_BEL": "X2Y16/DFF3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2926,7 +2862,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU4",
+            "NEXTPNR_BEL": "X2Y16/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2940,11 +2876,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7658 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7659 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7656 ],
             "CIN": [ 7661 ]
           }
@@ -2956,7 +2892,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/DFF4",
+            "NEXTPNR_BEL": "X2Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2981,7 +2917,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/ALU5",
+            "NEXTPNR_BEL": "X2Y16/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -2995,11 +2931,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7653 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7654 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7651 ],
             "CIN": [ 7656 ]
           }
@@ -3011,7 +2947,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X2Y17/DFF5",
+            "NEXTPNR_BEL": "X2Y16/DFF5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3036,7 +2972,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU0",
+            "NEXTPNR_BEL": "X3Y16/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3050,11 +2986,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7648 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7649 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7640 ],
             "CIN": [ 7651 ]
           }
@@ -3066,7 +3002,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/DFF0",
+            "NEXTPNR_BEL": "X3Y16/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3090,7 +3026,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/DFF4",
+            "NEXTPNR_BEL": "X6Y16/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3103,7 +3039,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7646 ],
-            "D": [ 7945 ],
+            "D": [ 7645 ],
             "CLK": [ 7578 ]
           }
         },
@@ -3115,7 +3051,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/ALU1",
+            "NEXTPNR_BEL": "X6Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3129,11 +3065,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7586 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7587 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7643 ],
             "CIN": [ 7642 ]
           }
@@ -3146,7 +3082,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU1",
+            "NEXTPNR_BEL": "X3Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3160,11 +3096,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7637 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7638 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7635 ],
             "CIN": [ 7640 ]
           }
@@ -3176,7 +3112,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y16/DFF2",
+            "NEXTPNR_BEL": "X3Y15/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3189,7 +3125,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7638 ],
-            "D": [ 7947 ],
+            "D": [ 7937 ],
             "CLK": [ 7578 ]
           }
         },
@@ -3201,7 +3137,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU2",
+            "NEXTPNR_BEL": "X3Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3215,11 +3151,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7632 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7633 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7630 ],
             "CIN": [ 7635 ]
           }
@@ -3231,7 +3167,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/DFF2",
+            "NEXTPNR_BEL": "X3Y16/DFF2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3256,7 +3192,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU3",
+            "NEXTPNR_BEL": "X3Y16/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3270,11 +3206,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7627 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7628 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7625 ],
             "CIN": [ 7630 ]
           }
@@ -3286,7 +3222,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/DFF3",
+            "NEXTPNR_BEL": "X3Y16/DFF3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3311,7 +3247,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU4",
+            "NEXTPNR_BEL": "X3Y16/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3325,11 +3261,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7622 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7623 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7620 ],
             "CIN": [ 7625 ]
           }
@@ -3341,7 +3277,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/DFF4",
+            "NEXTPNR_BEL": "X3Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3366,7 +3302,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/ALU5",
+            "NEXTPNR_BEL": "X3Y16/ALU5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3380,11 +3316,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7617 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7618 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7615 ],
             "CIN": [ 7620 ]
           }
@@ -3396,7 +3332,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X3Y17/DFF5",
+            "NEXTPNR_BEL": "X3Y15/DFF1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3409,7 +3345,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7618 ],
-            "D": [ 7617 ],
+            "D": [ 7939 ],
             "CLK": [ 7578 ]
           }
         },
@@ -3421,7 +3357,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU0",
+            "NEXTPNR_BEL": "X4Y16/ALU0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3435,11 +3371,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7612 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7613 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7610 ],
             "CIN": [ 7615 ]
           }
@@ -3451,7 +3387,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF0",
+            "NEXTPNR_BEL": "X4Y16/DFF0",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3476,7 +3412,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU1",
+            "NEXTPNR_BEL": "X4Y16/ALU1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3490,11 +3426,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7607 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7608 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7605 ],
             "CIN": [ 7610 ]
           }
@@ -3506,7 +3442,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF1",
+            "NEXTPNR_BEL": "X4Y16/DFF1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3531,7 +3467,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU2",
+            "NEXTPNR_BEL": "X4Y16/ALU2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3545,11 +3481,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7602 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7603 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7600 ],
             "CIN": [ 7605 ]
           }
@@ -3561,7 +3497,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF2",
+            "NEXTPNR_BEL": "X4Y16/DFF2",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3586,7 +3522,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU3",
+            "NEXTPNR_BEL": "X4Y16/ALU3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3600,11 +3536,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7597 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7598 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7592 ],
             "CIN": [ 7600 ]
           }
@@ -3616,7 +3552,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF3",
+            "NEXTPNR_BEL": "X4Y16/DFF3",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3641,7 +3577,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/ALU4",
+            "NEXTPNR_BEL": "X4Y16/ALU4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3655,11 +3591,11 @@
             "CIN": "input"
           },
           "connections": {
-            "I2": [ 7903 ],
+            "I2": [ 7901 ],
             "SUM": [ 7589 ],
-            "I3": [ 7903 ],
+            "I3": [ 7901 ],
             "I1": [ 7590 ],
-            "I0": [ 7904 ],
+            "I0": [ 7902 ],
             "COUT": [ 7593 ],
             "CIN": [ 7592 ]
           }
@@ -3671,7 +3607,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X4Y17/DFF4",
+            "NEXTPNR_BEL": "X4Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3695,7 +3631,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/DFF5",
+            "NEXTPNR_BEL": "X6Y16/DFF4",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3708,7 +3644,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7587 ],
-            "D": [ 7949 ],
+            "D": [ 7941 ],
             "CLK": [ 7578 ]
           }
         },
@@ -3719,7 +3655,7 @@
           },
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000001",
-            "NEXTPNR_BEL": "X6Y17/DFF2",
+            "NEXTPNR_BEL": "X6Y16/DFF5",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:18.3-25.6|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59",
             "module_not_derived": "00000000000000000000000000000001"
           },
@@ -3732,7 +3668,7 @@
           "connections": {
             "RESET": [ 7583 ],
             "Q": [ 7582 ],
-            "D": [ 7581 ],
+            "D": [ 7943 ],
             "CLK": [ 7578 ]
           }
         },
@@ -3762,131 +3698,109 @@
         }
       },
       "netnames": {
+        "delay_counter_DFFR_Q$conn$D": {
+          "hide_name": 0,
+          "bits": [ 7943 ] ,
+          "attributes": {
+            "ROUTING": "X6Y16/F5;;1;X6Y16/XD5;X6Y16/XD5/F5;1"
+          }
+        },
         "delay_counter_DFFR_Q_1$conn$D": {
           "hide_name": 0,
-          "bits": [ 7949 ] ,
+          "bits": [ 7941 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/F5;;1;X6Y17/XD5;X6Y17/XD5/F5;1"
+            "ROUTING": "X6Y16/F4;;1;X6Y16/XD4;X6Y16/XD4/F4;1"
+          }
+        },
+        "delay_counter_DFFR_Q_15$conn$D": {
+          "hide_name": 0,
+          "bits": [ 7939 ] ,
+          "attributes": {
+            "ROUTING": "X3Y15/F1;;1;X3Y15/XD1;X3Y15/XD1/F1;1"
           }
         },
         "delay_counter_DFFR_Q_19$conn$D": {
           "hide_name": 0,
-          "bits": [ 7947 ] ,
+          "bits": [ 7937 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/F2;;1;X3Y16/XD2;X3Y16/XD2/F2;1"
-          }
-        },
-        "delay_counter_DFFR_Q_2$conn$D": {
-          "hide_name": 0,
-          "bits": [ 7945 ] ,
-          "attributes": {
-            "ROUTING": "X6Y17/F4;;1;X6Y17/XD4;X6Y17/XD4/F4;1"
-          }
-        },
-        "delay_counter_DFFR_Q_24$conn$D": {
-          "hide_name": 0,
-          "bits": [ 7943 ] ,
-          "attributes": {
-            "ROUTING": "X2Y16/F2;;1;X2Y16/XD2;X2Y16/XD2/F2;1"
+            "ROUTING": "X3Y15/F4;;1;X3Y15/XD4;X3Y15/XD4/F4;1"
           }
         },
         "delay_counter_DFFR_Q_25$conn$D": {
           "hide_name": 0,
-          "bits": [ 7941 ] ,
+          "bits": [ 7935 ] ,
           "attributes": {
-            "ROUTING": "X2Y16/F0;;1;X2Y16/XD0;X2Y16/XD0/F0;1"
+            "ROUTING": "X2Y15/F1;;1;X2Y15/XD1;X2Y15/XD1/F1;1"
           }
         },
-        "delay_counter_DFFR_Q_27$conn$D": {
+        "delay_counter_DFFR_Q_7$conn$D": {
           "hide_name": 0,
-          "bits": [ 7939 ] ,
+          "bits": [ 7933 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/F5;;1;X1Y16/XD5;X1Y16/XD5/F5;1"
-          }
-        },
-        "delay_counter_DFFR_Q_30$conn$D": {
-          "hide_name": 0,
-          "bits": [ 7937 ] ,
-          "attributes": {
-            "ROUTING": "X1Y16/F4;;1;X1Y16/XD4;X1Y16/XD4/F4;1"
+            "ROUTING": "X5Y15/F2;;1;X5Y15/XD2;X5Y15/XD2/F2;1"
           }
         },
         "led_buffer_DFFE_Q$conn$D": {
           "hide_name": 0,
-          "bits": [ 7935 ] ,
+          "bits": [ 7931 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/F1;;1;X1Y15/XD1;X1Y15/XD1/F1;1"
+            "ROUTING": "X1Y14/F4;;1;X1Y14/XD4;X1Y14/XD4/F4;1"
           }
         },
         "led_buffer_DFFSE_Q$conn$D": {
           "hide_name": 0,
-          "bits": [ 7933 ] ,
+          "bits": [ 7929 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/F3;;1;X1Y16/XD3;X1Y16/XD3/F3;1"
+            "ROUTING": "X1Y20/F4;;1;X1Y20/XD4;X1Y20/XD4/F4;1"
           }
         },
         "led_buffer_DFFSE_Q_1$conn$D": {
-          "hide_name": 0,
-          "bits": [ 7931 ] ,
-          "attributes": {
-            "ROUTING": "X1Y20/F1;;1;X1Y20/XD1;X1Y20/XD1/F1;1"
-          }
-        },
-        "led_buffer_DFFSE_Q_2$conn$D": {
-          "hide_name": 0,
-          "bits": [ 7929 ] ,
-          "attributes": {
-            "ROUTING": "X1Y20/F0;;1;X1Y20/XD0;X1Y20/XD0/F0;1"
-          }
-        },
-        "led_buffer_DFFSE_Q_3$conn$D": {
           "hide_name": 0,
           "bits": [ 7927 ] ,
           "attributes": {
             "ROUTING": "X1Y20/F5;;1;X1Y20/XD5;X1Y20/XD5/F5;1"
           }
         },
-        "led_buffer_DFFSE_Q_4$conn$D": {
+        "led_buffer_DFFSE_Q_2$conn$D": {
           "hide_name": 0,
           "bits": [ 7925 ] ,
           "attributes": {
-            "ROUTING": "X1Y19/F2;;1;X1Y19/XD2;X1Y19/XD2/F2;1"
+            "ROUTING": "X1Y20/F2;;1;X1Y20/XD2;X1Y20/XD2/F2;1"
           }
         },
-        "led_buffer_DFFSE_Q_5$conn$D": {
+        "led_buffer_DFFSE_Q_3$conn$D": {
           "hide_name": 0,
           "bits": [ 7923 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/F5;;1;X1Y15/XD5;X1Y15/XD5/F5;1"
+            "ROUTING": "X1Y15/F4;;1;X1Y15/XD4;X1Y15/XD4/F4;1"
+          }
+        },
+        "led_buffer_DFFSE_Q_4$conn$D": {
+          "hide_name": 0,
+          "bits": [ 7921 ] ,
+          "attributes": {
+            "ROUTING": "X1Y14/F1;;1;X1Y14/XD1;X1Y14/XD1/F1;1"
           }
         },
         "delay_counter_DFFR_Q_29_D_ALU_SUM_CIN_ALU_COUT_CIN_ALU_COUT_HEAD_ALULC": {
           "hide_name": 0,
-          "bits": [ 7910 ] ,
+          "bits": [ 7908 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/COUT0;;1"
+            "ROUTING": "X1Y16/COUT0;;1"
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_TAIL_ALULC": {
           "hide_name": 0,
-          "bits": [ 7909 ] ,
+          "bits": [ 7907 ] ,
           "attributes": {
-            "ROUTING": "X7Y15/COUT2;;1"
+            "ROUTING": "X6Y17/COUT2;;1"
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM_CIN_ALU_COUT_HEAD_ALULC": {
           "hide_name": 0,
-          "bits": [ 7908 ] ,
+          "bits": [ 7906 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/COUT0;;1"
-          }
-        },
-        "led_buffer[6]": {
-          "hide_name": 0,
-          "bits": [ 7878 ] ,
-          "attributes": {
-            "ROUTING": "X1Y16/Q3;;1;X1Y16/N100;X1Y16/N100/Q3;1;X1Y15/D1;X1Y15/D1/N101;1",
-            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
+            "ROUTING": "X1Y17/COUT0;;1"
           }
         },
         "led[0]": {
@@ -3901,7 +3815,7 @@
           "hide_name": 0,
           "bits": [ 7875 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/W130;X1Y15/W130/Q1;1;X0Y15/N270;X0Y15/N270/W131;1;X0Y14/A0;X0Y14/A0/N271;1;X1Y15/Q1;;1;X1Y15/X02;X1Y15/X02/Q1;1;X1Y15/D5;X1Y15/D5/X02;1",
+            "ROUTING": "X1Y14/X03;X1Y14/X03/Q4;1;X1Y14/D1;X1Y14/D1/X03;1;X1Y14/Q4;;1;X1Y14/W130;X1Y14/W130/Q4;1;X0Y14/A0;X0Y14/A0/W131;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3917,7 +3831,7 @@
           "hide_name": 0,
           "bits": [ 7872 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/EW20;X1Y15/EW20/Q5;1;X0Y15/D1;X0Y15/D1/W121;1;X1Y15/Q5;;1;X1Y15/S250;X1Y15/S250/Q5;1;X1Y17/S200;X1Y17/S200/S252;1;X1Y19/D2;X1Y19/D2/S202;1",
+            "ROUTING": "X1Y14/EW20;X1Y14/EW20/Q1;1;X0Y14/S220;X0Y14/S220/W121;1;X0Y15/D1;X0Y15/D1/S221;1;X1Y14/Q1;;1;X1Y14/SN10;X1Y14/SN10/Q1;1;X1Y15/D4;X1Y15/D4/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3933,7 +3847,7 @@
           "hide_name": 0,
           "bits": [ 7869 ] ,
           "attributes": {
-            "ROUTING": "X1Y19/W100;X1Y19/W100/Q2;1;X0Y19/S200;X0Y19/S200/W101;1;X0Y20/D1;X0Y20/D1/S201;1;X1Y19/Q2;;1;X1Y19/SN10;X1Y19/SN10/Q2;1;X1Y20/D5;X1Y20/D5/S111;1",
+            "ROUTING": "X1Y16/S800;X1Y16/S800/S101;1;X1Y20/W200;X1Y20/W200/S804;1;X0Y20/D1;X0Y20/D1/W201;1;X1Y15/Q4;;1;X1Y15/S100;X1Y15/S100/Q4;1;X1Y16/S200;X1Y16/S200/S101;1;X1Y18/S200;X1Y18/S200/S202;1;X1Y20/D2;X1Y20/D2/S202;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3949,7 +3863,7 @@
           "hide_name": 0,
           "bits": [ 7866 ] ,
           "attributes": {
-            "ROUTING": "X1Y20/SN20;X1Y20/SN20/Q5;1;X1Y21/W220;X1Y21/W220/S121;1;X0Y21/D1;X0Y21/D1/W221;1;X1Y20/Q5;;1;X1Y20/X08;X1Y20/X08/Q5;1;X1Y20/D0;X1Y20/D0/X08;1",
+            "ROUTING": "X1Y20/D5;X1Y20/D5/S100;1;X1Y20/Q2;;1;X1Y20/S100;X1Y20/S100/Q2;1;X1Y21/W200;X1Y21/W200/S101;1;X0Y21/D1;X0Y21/D1/W201;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3965,7 +3879,7 @@
           "hide_name": 0,
           "bits": [ 7863 ] ,
           "attributes": {
-            "ROUTING": "X1Y20/W100;X1Y20/W100/Q0;1;X1Y20/D1;X1Y20/D1/W100;1;X1Y20/Q0;;1;X1Y20/S800;X1Y20/S800/Q0;1;X1Y24/W200;X1Y24/W200/S804;1;X0Y24/D1;X0Y24/D1/W201;1",
+            "ROUTING": "X1Y20/EW20;X1Y20/EW20/Q5;1;X0Y20/S220;X0Y20/S220/W121;1;X0Y22/S220;X0Y22/S220/S222;1;X0Y24/D1;X0Y24/D1/S222;1;X1Y20/Q5;;1;X1Y20/X04;X1Y20/X04/Q5;1;X1Y20/D4;X1Y20/D4/X04;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3981,7 +3895,7 @@
           "hide_name": 0,
           "bits": [ 7860 ] ,
           "attributes": {
-            "ROUTING": "X1Y20/S100;X1Y20/S100/Q1;1;X1Y21/S800;X1Y21/S800/S101;1;X1Y25/W200;X1Y25/W200/S804;1;X0Y25/D1;X0Y25/D1/W201;1;X1Y20/Q1;;1;X1Y20/N210;X1Y20/N210/Q1;1;X1Y18/N240;X1Y18/N240/N212;1;X1Y16/X03;X1Y16/X03/N242;1;X1Y16/D3;X1Y16/D3/X03;1",
+            "ROUTING": "X1Y20/N820;X1Y20/N820/Q4;1;X1Y12/S240;X1Y12/S240/N828;1;X1Y14/D4;X1Y14/D4/S242;1;X1Y20/Q4;;1;X1Y20/SN10;X1Y20/SN10/Q4;1;X1Y21/S810;X1Y21/S810/S111;1;X1Y25/W220;X1Y25/W220/S814;1;X0Y25/D1;X0Y25/D1/W221;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:14.18-14.28"
           }
         },
@@ -3999,14 +3913,14 @@
           "hide_name": 0,
           "bits": [ 7854 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F5;;1;X4Y17/XD5;X4Y17/XD5/F5;1"
+            "ROUTING": "X4Y16/F5;;1;X4Y16/XD5;X4Y16/XD5/F5;1"
           }
         },
         "delay_counter_DFFR_Q_9_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7852 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/CIN0;;1",
+            "ROUTING": "X5Y16/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4015,14 +3929,14 @@
           "hide_name": 0,
           "bits": [ 7850 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F0;;1;X5Y17/XD0;X5Y17/XD0/F0;1"
+            "ROUTING": "X5Y16/F0;;1;X5Y16/XD0;X5Y16/XD0/F0;1"
           }
         },
         "delay_counter_DFFR_Q_8_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7848 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/COUT0;;1",
+            "ROUTING": "X5Y16/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4031,14 +3945,14 @@
           "hide_name": 0,
           "bits": [ 7846 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F1;;1;X5Y17/XD1;X5Y17/XD1/F1;1"
+            "ROUTING": "X5Y16/F1;;1;X5Y16/N100;X5Y16/N100/F1;1;X5Y15/D2;X5Y15/D2/N101;1"
           }
         },
         "delay_counter_DFFR_Q_7_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7844 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/COUT1;;1",
+            "ROUTING": "X5Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4047,14 +3961,14 @@
           "hide_name": 0,
           "bits": [ 7842 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F2;;1;X5Y17/XD2;X5Y17/XD2/F2;1"
+            "ROUTING": "X5Y16/F2;;1;X5Y16/XD2;X5Y16/XD2/F2;1"
           }
         },
         "delay_counter_DFFR_Q_6_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7840 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/COUT2;;1",
+            "ROUTING": "X5Y16/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4063,14 +3977,14 @@
           "hide_name": 0,
           "bits": [ 7838 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F3;;1;X5Y17/XD3;X5Y17/XD3/F3;1"
+            "ROUTING": "X5Y16/F3;;1;X5Y16/XD3;X5Y16/XD3/F3;1"
           }
         },
         "delay_counter_DFFR_Q_5_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7836 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/COUT3;;1",
+            "ROUTING": "X5Y16/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4079,14 +3993,14 @@
           "hide_name": 0,
           "bits": [ 7834 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F4;;1;X5Y17/XD4;X5Y17/XD4/F4;1"
+            "ROUTING": "X5Y16/F4;;1;X5Y16/XD4;X5Y16/XD4/F4;1"
           }
         },
         "delay_counter_DFFR_Q_4_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7832 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/COUT4;;1",
+            "ROUTING": "X5Y16/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4095,14 +4009,14 @@
           "hide_name": 0,
           "bits": [ 7829 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/F0;;1;X1Y16/XD0;X1Y16/XD0/F0;1"
+            "ROUTING": "X1Y15/F0;;1;X1Y15/XD0;X1Y15/XD0/F0;1"
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_LUT3_I0_I1_LUT3_F_I0[2]": {
           "hide_name": 0,
           "bits": [ 7824 ] ,
           "attributes": {
-            "ROUTING": "X4Y16/F6;;1;X4Y16/W260;X4Y16/W260/F6;1;X2Y16/C4;X2Y16/C4/W262;1",
+            "ROUTING": "X4Y16/F7;;1;X4Y16/W100;X4Y16/W100/F7;1;X3Y16/W240;X3Y16/W240/W101;1;X2Y16/C7;X2Y16/C7/W241;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4111,7 +4025,7 @@
           "hide_name": 0,
           "bits": [ 7823 ] ,
           "attributes": {
-            "ROUTING": "X2Y16/F7;;1;X2Y16/X08;X2Y16/X08/F7;1;X2Y16/B4;X2Y16/B4/X08;1",
+            "ROUTING": "X2Y15/F7;;1;X2Y15/SN20;X2Y15/SN20/F7;1;X2Y16/B7;X2Y16/B7/S121;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4120,7 +4034,7 @@
           "hide_name": 0,
           "bits": [ 7822 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/F6;;1;X3Y16/W130;X3Y16/W130/F6;1;X2Y16/A4;X2Y16/A4/W131;1",
+            "ROUTING": "X2Y16/F6;;1;X2Y16/E130;X2Y16/E130/F6;1;X2Y16/A7;X2Y16/A7/E130;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4129,7 +4043,7 @@
           "hide_name": 0,
           "bits": [ 7818 ] ,
           "attributes": {
-            "ROUTING": "X4Y16/F0;;1;X4Y16/EW10;X4Y16/EW10/F0;1;X3Y16/B3;X3Y16/B3/W111;1",
+            "ROUTING": "X4Y15/F7;;1;X4Y15/X04;X4Y15/X04/F7;1;X4Y15/B1;X4Y15/B1/X04;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4138,7 +4052,7 @@
           "hide_name": 0,
           "bits": [ 7817 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/F5;;1;X3Y16/A3;X3Y16/A3/F5;1",
+            "ROUTING": "X3Y16/F6;;1;X3Y16/EW10;X3Y16/EW10/F6;1;X4Y16/N250;X4Y16/N250/E111;1;X4Y15/A1;X4Y15/A1/N251;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4147,7 +4061,7 @@
           "hide_name": 0,
           "bits": [ 7815 ] ,
           "attributes": {
-            "ROUTING": "X2Y16/F4;;1;X2Y16/E240;X2Y16/E240/F4;1;X3Y16/C1;X3Y16/C1/E241;1",
+            "ROUTING": "X2Y16/F7;;1;X2Y16/EW20;X2Y16/EW20/F7;1;X3Y16/E260;X3Y16/E260/E121;1;X4Y16/C6;X4Y16/C6/E261;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4156,7 +4070,7 @@
           "hide_name": 0,
           "bits": [ 7814 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/F3;;1;X3Y16/B1;X3Y16/B1/F3;1",
+            "ROUTING": "X4Y15/F1;;1;X4Y15/SN20;X4Y15/SN20/F1;1;X4Y16/B6;X4Y16/B6/S121;1",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "force_downto": "00000000000000000000000000000001"
           }
@@ -4173,7 +4087,7 @@
           "hide_name": 0,
           "bits": [ 7811 ] ,
           "attributes": {
-            "ROUTING": "X7Y15/F3;;1;X7Y15/SN10;X7Y15/SN10/F3;1;X7Y16/W250;X7Y16/W250/S111;1;X5Y16/W250;X5Y16/W250/W252;1;X3Y16/A1;X3Y16/A1/W252;1",
+            "ROUTING": "X6Y17/F3;;1;X6Y17/SN10;X6Y17/SN10/F3;1;X6Y16/W250;X6Y16/W250/N111;1;X4Y16/A6;X4Y16/A6/W252;1",
             "force_downto": "00000000000000000000000000000001",
             "src": "/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
             "abc9_carry": "00000000000000000000000000000001"
@@ -4191,7 +4105,7 @@
           "hide_name": 0,
           "bits": [ 7807 ] ,
           "attributes": {
-            "ROUTING": "X7Y15/COUT1;;1",
+            "ROUTING": "X6Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4208,7 +4122,7 @@
           "hide_name": 0,
           "bits": [ 7804 ] ,
           "attributes": {
-            "ROUTING": "X7Y15/COUT0;;1",
+            "ROUTING": "X6Y17/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4225,7 +4139,7 @@
           "hide_name": 0,
           "bits": [ 7801 ] ,
           "attributes": {
-            "ROUTING": "X7Y15/CIN0;;1",
+            "ROUTING": "X6Y17/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4242,7 +4156,7 @@
           "hide_name": 0,
           "bits": [ 7798 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/E100;X5Y17/E100/Q4;1;X6Y17/N240;X6Y17/N240/E101;1;X6Y15/X03;X6Y15/X03/N242;1;X6Y15/B4;X6Y15/B4/X03;1;X5Y17/Q4;;1;X5Y17/W100;X5Y17/W100/Q4;1;X5Y17/B4;X5Y17/B4/W100;1",
+            "ROUTING": "X5Y16/SN20;X5Y16/SN20/Q4;1;X5Y17/B4;X5Y17/B4/S121;1;X5Y16/Q4;;1;X5Y16/X03;X5Y16/X03/Q4;1;X5Y16/B4;X5Y16/B4/X03;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4250,7 +4164,7 @@
           "hide_name": 0,
           "bits": [ 7797 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/COUT4;;1",
+            "ROUTING": "X5Y17/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4267,7 +4181,7 @@
           "hide_name": 0,
           "bits": [ 7794 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/N230;X5Y17/N230/Q3;1;X5Y15/E230;X5Y15/E230/N232;1;X6Y15/B3;X6Y15/B3/E231;1;X5Y17/Q3;;1;X5Y17/B3;X5Y17/B3/Q3;1",
+            "ROUTING": "X5Y16/S230;X5Y16/S230/Q3;1;X5Y17/B3;X5Y17/B3/S231;1;X5Y16/Q3;;1;X5Y16/B3;X5Y16/B3/Q3;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4275,7 +4189,7 @@
           "hide_name": 0,
           "bits": [ 7793 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/COUT3;;1",
+            "ROUTING": "X5Y17/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4292,7 +4206,7 @@
           "hide_name": 0,
           "bits": [ 7790 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/EW20;X5Y17/EW20/Q2;1;X6Y17/N260;X6Y17/N260/E121;1;X6Y15/X01;X6Y15/X01/N262;1;X6Y15/B2;X6Y15/B2/X01;1;X5Y17/Q2;;1;X5Y17/X01;X5Y17/X01/Q2;1;X5Y17/B2;X5Y17/B2/X01;1",
+            "ROUTING": "X5Y16/S220;X5Y16/S220/Q2;1;X5Y17/X01;X5Y17/X01/S221;1;X5Y17/B2;X5Y17/B2/X01;1;X5Y16/Q2;;1;X5Y16/X01;X5Y16/X01/Q2;1;X5Y16/B2;X5Y16/B2/X01;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4300,7 +4214,7 @@
           "hide_name": 0,
           "bits": [ 7789 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/COUT2;;1",
+            "ROUTING": "X5Y17/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4317,7 +4231,7 @@
           "hide_name": 0,
           "bits": [ 7786 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/EW10;X5Y17/EW10/Q1;1;X6Y17/N210;X6Y17/N210/E111;1;X6Y15/B1;X6Y15/B1/N212;1;X5Y17/Q1;;1;X5Y17/B1;X5Y17/B1/Q1;1",
+            "ROUTING": "X5Y15/S220;X5Y15/S220/Q2;1;X5Y17/X05;X5Y17/X05/S222;1;X5Y17/B1;X5Y17/B1/X05;1;X5Y15/Q2;;1;X5Y15/SN10;X5Y15/SN10/Q2;1;X5Y16/B1;X5Y16/B1/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4325,7 +4239,7 @@
           "hide_name": 0,
           "bits": [ 7785 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/COUT1;;1",
+            "ROUTING": "X5Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4342,7 +4256,7 @@
           "hide_name": 0,
           "bits": [ 7782 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/E130;X5Y17/E130/Q0;1;X6Y17/N230;X6Y17/N230/E131;1;X6Y15/B0;X6Y15/B0/N232;1;X5Y17/N130;X5Y17/N130/Q0;1;X5Y16/W270;X5Y16/W270/N131;1;X4Y16/A0;X4Y16/A0/W271;1;X5Y17/Q0;;1;X5Y17/X05;X5Y17/X05/Q0;1;X5Y17/B0;X5Y17/B0/X05;1",
+            "ROUTING": "X5Y16/SN10;X5Y16/SN10/Q0;1;X5Y17/B0;X5Y17/B0/S111;1;X5Y16/EW10;X5Y16/EW10/Q0;1;X4Y16/N210;X4Y16/N210/W111;1;X4Y15/A7;X4Y15/A7/N211;1;X5Y16/Q0;;1;X5Y16/X05;X5Y16/X05/Q0;1;X5Y16/B0;X5Y16/B0/X05;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4350,7 +4264,7 @@
           "hide_name": 0,
           "bits": [ 7781 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/COUT0;;1",
+            "ROUTING": "X5Y17/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4367,7 +4281,7 @@
           "hide_name": 0,
           "bits": [ 7778 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/E250;X4Y17/E250/Q5;1;X5Y17/N250;X5Y17/N250/E251;1;X5Y15/B5;X5Y15/B5/N252;1;X4Y17/N130;X4Y17/N130/Q5;1;X4Y16/B0;X4Y16/B0/N131;1;X4Y17/Q5;;1;X4Y17/X08;X4Y17/X08/Q5;1;X4Y17/B5;X4Y17/B5/X08;1",
+            "ROUTING": "X4Y16/S250;X4Y16/S250/Q5;1;X4Y17/B5;X4Y17/B5/S251;1;X4Y16/N100;X4Y16/N100/Q5;1;X4Y15/B7;X4Y15/B7/N101;1;X4Y16/Q5;;1;X4Y16/X08;X4Y16/X08/Q5;1;X4Y16/B5;X4Y16/B5/X08;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4375,7 +4289,7 @@
           "hide_name": 0,
           "bits": [ 7777 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/CIN0;;1",
+            "ROUTING": "X5Y17/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4392,7 +4306,7 @@
           "hide_name": 0,
           "bits": [ 7774 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/COUT4;;1",
+            "ROUTING": "X4Y17/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4409,7 +4323,7 @@
           "hide_name": 0,
           "bits": [ 7771 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/COUT3;;1",
+            "ROUTING": "X4Y17/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4426,7 +4340,7 @@
           "hide_name": 0,
           "bits": [ 7768 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/COUT2;;1",
+            "ROUTING": "X4Y17/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4443,7 +4357,7 @@
           "hide_name": 0,
           "bits": [ 7765 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/COUT1;;1",
+            "ROUTING": "X4Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4460,7 +4374,7 @@
           "hide_name": 0,
           "bits": [ 7762 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/COUT0;;1",
+            "ROUTING": "X4Y17/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4477,7 +4391,7 @@
           "hide_name": 0,
           "bits": [ 7759 ] ,
           "attributes": {
-            "ROUTING": "X5Y15/CIN0;;1",
+            "ROUTING": "X4Y17/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4494,7 +4408,7 @@
           "hide_name": 0,
           "bits": [ 7756 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/COUT4;;1",
+            "ROUTING": "X3Y17/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4511,7 +4425,7 @@
           "hide_name": 0,
           "bits": [ 7753 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/COUT3;;1",
+            "ROUTING": "X3Y17/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4528,7 +4442,7 @@
           "hide_name": 0,
           "bits": [ 7750 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/COUT2;;1",
+            "ROUTING": "X3Y17/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4545,7 +4459,7 @@
           "hide_name": 0,
           "bits": [ 7747 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/COUT1;;1",
+            "ROUTING": "X3Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4562,7 +4476,7 @@
           "hide_name": 0,
           "bits": [ 7744 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/COUT0;;1",
+            "ROUTING": "X3Y17/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4579,7 +4493,7 @@
           "hide_name": 0,
           "bits": [ 7741 ] ,
           "attributes": {
-            "ROUTING": "X4Y15/CIN0;;1",
+            "ROUTING": "X3Y17/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4596,7 +4510,7 @@
           "hide_name": 0,
           "bits": [ 7738 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/COUT4;;1",
+            "ROUTING": "X2Y17/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4613,7 +4527,7 @@
           "hide_name": 0,
           "bits": [ 7735 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/COUT3;;1",
+            "ROUTING": "X2Y17/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4630,7 +4544,7 @@
           "hide_name": 0,
           "bits": [ 7732 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/COUT2;;1",
+            "ROUTING": "X2Y17/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4647,7 +4561,7 @@
           "hide_name": 0,
           "bits": [ 7729 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/COUT1;;1",
+            "ROUTING": "X2Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4664,7 +4578,7 @@
           "hide_name": 0,
           "bits": [ 7726 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/COUT0;;1",
+            "ROUTING": "X2Y17/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4681,7 +4595,7 @@
           "hide_name": 0,
           "bits": [ 7723 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/CIN0;;1",
+            "ROUTING": "X2Y17/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4698,7 +4612,7 @@
           "hide_name": 0,
           "bits": [ 7720 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/COUT4;;1",
+            "ROUTING": "X1Y17/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4715,7 +4629,7 @@
           "hide_name": 0,
           "bits": [ 7717 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/COUT3;;1",
+            "ROUTING": "X1Y17/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4732,7 +4646,7 @@
           "hide_name": 0,
           "bits": [ 7713 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/COUT2;;1",
+            "ROUTING": "X1Y17/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4741,7 +4655,7 @@
           "hide_name": 0,
           "bits": [ 7712 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/COUT1;;1",
+            "ROUTING": "X1Y17/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:20.9-20.38|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4750,14 +4664,14 @@
           "hide_name": 0,
           "bits": [ 7710 ] ,
           "attributes": {
-            "ROUTING": "X2Y15/F2;;1;X2Y15/EW20;X2Y15/EW20/F2;1;X1Y15/S260;X1Y15/S260/W121;1;X1Y16/D4;X1Y16/D4/S261;1"
+            "ROUTING": "X1Y17/F2;;1;X1Y17/XD2;X1Y17/XD2/F2;1"
           }
         },
         "delay_counter[28]": {
           "hide_name": 0,
           "bits": [ 7708 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/N250;X6Y17/N250/E251;1;X6Y15/B5;X6Y15/B5/N252;1;X5Y17/Q5;;1;X5Y17/E250;X5Y17/E250/Q5;1;X5Y17/B5;X5Y17/B5/E250;1",
+            "ROUTING": "X5Y16/S250;X5Y16/S250/Q5;1;X5Y17/B5;X5Y17/B5/S251;1;X5Y16/Q5;;1;X5Y16/X08;X5Y16/X08/Q5;1;X5Y16/B5;X5Y16/B5/X08;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4765,14 +4679,14 @@
           "hide_name": 0,
           "bits": [ 7707 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/F5;;1;X5Y17/XD5;X5Y17/XD5/F5;1"
+            "ROUTING": "X5Y16/F5;;1;X5Y16/XD5;X5Y16/XD5/F5;1"
           }
         },
         "delay_counter_DFFR_Q_3_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7705 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/CIN0;;1",
+            "ROUTING": "X6Y16/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4789,7 +4703,7 @@
           "hide_name": 0,
           "bits": [ 7702 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/EW10;X1Y16/EW10/Q0;1;X2Y16/N210;X2Y16/N210/E111;1;X2Y15/B1;X2Y15/B1/N211;1;X1Y16/X01;X1Y16/X01/Q0;1;X1Y16/A0;X1Y16/A0/X01;1;X1Y16/Q0;;1;X1Y16/S100;X1Y16/S100/Q0;1;X1Y17/S240;X1Y17/S240/S101;1;X1Y17/B1;X1Y17/B1/S240;1",
+            "ROUTING": "X1Y15/X01;X1Y15/X01/Q0;1;X1Y15/A0;X1Y15/A0/X01;1;X1Y15/S200;X1Y15/S200/Q0;1;X1Y17/X05;X1Y17/X05/S202;1;X1Y17/B1;X1Y17/B1/X05;1;X1Y15/Q0;;1;X1Y15/SN10;X1Y15/SN10/Q0;1;X1Y16/B1;X1Y16/B1/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4805,7 +4719,7 @@
           "hide_name": 0,
           "bits": [ 7699 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/E210;X1Y15/E210/N111;1;X2Y15/B2;X2Y15/B2/E211;1;X1Y16/Q4;;1;X1Y16/SN10;X1Y16/SN10/Q4;1;X1Y17/B2;X1Y17/B2/S111;1",
+            "ROUTING": "X1Y17/X01;X1Y17/X01/Q2;1;X1Y17/B2;X1Y17/B2/X01;1;X1Y17/Q2;;1;X1Y17/N130;X1Y17/N130/Q2;1;X1Y16/B2;X1Y16/B2/N131;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4813,7 +4727,7 @@
           "hide_name": 0,
           "bits": [ 7698 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/COUT1;;1",
+            "ROUTING": "X1Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4822,7 +4736,7 @@
           "hide_name": 0,
           "bits": [ 7696 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/COUT2;;1",
+            "ROUTING": "X1Y16/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4831,7 +4745,7 @@
           "hide_name": 0,
           "bits": [ 7694 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/N230;X1Y17/N230/Q3;1;X1Y15/E230;X1Y15/E230/N232;1;X2Y15/B3;X2Y15/B3/E231;1;X1Y17/Q3;;1;X1Y17/B3;X1Y17/B3/Q3;1",
+            "ROUTING": "X1Y16/S230;X1Y16/S230/Q3;1;X1Y17/B3;X1Y17/B3/S231;1;X1Y16/Q3;;1;X1Y16/B3;X1Y16/B3/Q3;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4839,14 +4753,14 @@
           "hide_name": 0,
           "bits": [ 7693 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/F3;;1;X1Y17/XD3;X1Y17/XD3/F3;1"
+            "ROUTING": "X1Y16/F3;;1;X1Y16/XD3;X1Y16/XD3/F3;1"
           }
         },
         "delay_counter_DFFR_Q_29_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7691 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/COUT3;;1",
+            "ROUTING": "X1Y16/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4855,7 +4769,7 @@
           "hide_name": 0,
           "bits": [ 7689 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/EW10;X1Y17/EW10/Q4;1;X2Y17/N250;X2Y17/N250/E111;1;X2Y15/B4;X2Y15/B4/N252;1;X1Y17/Q4;;1;X1Y17/X03;X1Y17/X03/Q4;1;X1Y17/B4;X1Y17/B4/X03;1",
+            "ROUTING": "X1Y16/SN20;X1Y16/SN20/Q4;1;X1Y17/B4;X1Y17/B4/S121;1;X1Y16/Q4;;1;X1Y16/W100;X1Y16/W100/Q4;1;X1Y16/B4;X1Y16/B4/W100;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4863,14 +4777,14 @@
           "hide_name": 0,
           "bits": [ 7688 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/F4;;1;X1Y17/XD4;X1Y17/XD4/F4;1"
+            "ROUTING": "X1Y16/F4;;1;X1Y16/XD4;X1Y16/XD4/F4;1"
           }
         },
         "delay_counter_DFFR_Q_28_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7686 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/COUT4;;1",
+            "ROUTING": "X1Y16/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4879,7 +4793,7 @@
           "hide_name": 0,
           "bits": [ 7684 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/E130;X1Y16/E130/Q5;1;X2Y16/N270;X2Y16/N270/E131;1;X2Y15/B5;X2Y15/B5/N271;1;X1Y16/Q5;;1;X1Y16/SN20;X1Y16/SN20/Q5;1;X1Y17/B5;X1Y17/B5/S121;1",
+            "ROUTING": "X1Y16/S250;X1Y16/S250/Q5;1;X1Y17/B5;X1Y17/B5/S251;1;X1Y16/Q5;;1;X1Y16/X08;X1Y16/X08/Q5;1;X1Y16/B5;X1Y16/B5/X08;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4887,14 +4801,14 @@
           "hide_name": 0,
           "bits": [ 7683 ] ,
           "attributes": {
-            "ROUTING": "X1Y17/F5;;1;X1Y17/N130;X1Y17/N130/F5;1;X1Y16/D5;X1Y16/D5/N131;1"
+            "ROUTING": "X1Y16/F5;;1;X1Y16/XD5;X1Y16/XD5/F5;1"
           }
         },
         "delay_counter_DFFR_Q_27_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7681 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/CIN0;;1",
+            "ROUTING": "X2Y16/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4903,7 +4817,7 @@
           "hide_name": 0,
           "bits": [ 7679 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/EW10;X2Y17/EW10/Q0;1;X3Y17/N210;X3Y17/N210/E111;1;X3Y15/B0;X3Y15/B0/N212;1;X2Y17/SN10;X2Y17/SN10/Q0;1;X2Y16/N250;X2Y16/N250/N111;1;X2Y16/B7;X2Y16/B7/N250;1;X2Y17/Q0;;1;X2Y17/X05;X2Y17/X05/Q0;1;X2Y17/B0;X2Y17/B0/X05;1",
+            "ROUTING": "X2Y15/N250;X2Y15/N250/N111;1;X2Y15/B7;X2Y15/B7/N250;1;X2Y16/SN10;X2Y16/SN10/Q0;1;X2Y17/B0;X2Y17/B0/S111;1;X2Y16/Q0;;1;X2Y16/X05;X2Y16/X05/Q0;1;X2Y16/B0;X2Y16/B0/X05;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4911,14 +4825,14 @@
           "hide_name": 0,
           "bits": [ 7678 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F0;;1;X2Y17/XD0;X2Y17/XD0/F0;1"
+            "ROUTING": "X2Y16/F0;;1;X2Y16/XD0;X2Y16/XD0/F0;1"
           }
         },
         "delay_counter_DFFR_Q_26_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7676 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/COUT0;;1",
+            "ROUTING": "X2Y16/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4927,7 +4841,7 @@
           "hide_name": 0,
           "bits": [ 7674 ] ,
           "attributes": {
-            "ROUTING": "X2Y16/X01;X2Y16/X01/Q0;1;X2Y16/A7;X2Y16/A7/X01;1;X2Y15/E210;X2Y15/E210/N111;1;X3Y15/B1;X3Y15/B1/E211;1;X2Y16/Q0;;1;X2Y16/SN10;X2Y16/SN10/Q0;1;X2Y17/B1;X2Y17/B1/S111;1",
+            "ROUTING": "X2Y15/S210;X2Y15/S210/Q1;1;X2Y17/B1;X2Y17/B1/S212;1;X2Y15/X06;X2Y15/X06/Q1;1;X2Y15/A7;X2Y15/A7/X06;1;X2Y15/Q1;;1;X2Y15/SN10;X2Y15/SN10/Q1;1;X2Y16/B1;X2Y16/B1/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4935,14 +4849,14 @@
           "hide_name": 0,
           "bits": [ 7673 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F1;;1;X2Y17/N100;X2Y17/N100/F1;1;X2Y16/D0;X2Y16/D0/N101;1"
+            "ROUTING": "X2Y16/F1;;1;X2Y16/N100;X2Y16/N100/F1;1;X2Y15/D1;X2Y15/D1/N101;1"
           }
         },
         "delay_counter_DFFR_Q_25_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7671 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/COUT1;;1",
+            "ROUTING": "X2Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4951,7 +4865,7 @@
           "hide_name": 0,
           "bits": [ 7669 ] ,
           "attributes": {
-            "ROUTING": "X2Y16/E130;X2Y16/E130/Q2;1;X3Y16/N230;X3Y16/N230/E131;1;X3Y15/B2;X3Y15/B2/N231;1;X2Y16/Q2;;1;X2Y16/S100;X2Y16/S100/Q2;1;X2Y17/W240;X2Y17/W240/S101;1;X2Y17/B2;X2Y17/B2/W240;1",
+            "ROUTING": "X2Y16/S100;X2Y16/S100/Q2;1;X2Y17/W240;X2Y17/W240/S101;1;X2Y17/B2;X2Y17/B2/W240;1;X2Y16/Q2;;1;X2Y16/S130;X2Y16/S130/Q2;1;X2Y16/B2;X2Y16/B2/S130;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4959,14 +4873,14 @@
           "hide_name": 0,
           "bits": [ 7668 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F2;;1;X2Y17/N220;X2Y17/N220/F2;1;X2Y16/D2;X2Y16/D2/N221;1"
+            "ROUTING": "X2Y16/F2;;1;X2Y16/XD2;X2Y16/XD2/F2;1"
           }
         },
         "delay_counter_DFFR_Q_24_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7666 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/COUT2;;1",
+            "ROUTING": "X2Y16/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4975,7 +4889,7 @@
           "hide_name": 0,
           "bits": [ 7664 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/N230;X2Y17/N230/Q3;1;X2Y15/E230;X2Y15/E230/N232;1;X3Y15/B3;X3Y15/B3/E231;1;X2Y17/Q3;;1;X2Y17/B3;X2Y17/B3/Q3;1",
+            "ROUTING": "X2Y16/S230;X2Y16/S230/Q3;1;X2Y17/B3;X2Y17/B3/S231;1;X2Y16/Q3;;1;X2Y16/B3;X2Y16/B3/Q3;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -4983,14 +4897,14 @@
           "hide_name": 0,
           "bits": [ 7663 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F3;;1;X2Y17/XD3;X2Y17/XD3/F3;1"
+            "ROUTING": "X2Y16/F3;;1;X2Y16/XD3;X2Y16/XD3/F3;1"
           }
         },
         "delay_counter_DFFR_Q_23_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7661 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/COUT3;;1",
+            "ROUTING": "X2Y16/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -4999,7 +4913,7 @@
           "hide_name": 0,
           "bits": [ 7659 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/E130;X2Y17/E130/Q4;1;X3Y17/N270;X3Y17/N270/E131;1;X3Y15/B4;X3Y15/B4/N272;1;X2Y17/SN20;X2Y17/SN20/Q4;1;X2Y16/E260;X2Y16/E260/N121;1;X3Y16/C6;X3Y16/C6/E261;1;X2Y17/Q4;;1;X2Y17/X03;X2Y17/X03/Q4;1;X2Y17/B4;X2Y17/B4/X03;1",
+            "ROUTING": "X2Y16/SN20;X2Y16/SN20/Q4;1;X2Y17/B4;X2Y17/B4/S121;1;X2Y16/N130;X2Y16/N130/Q4;1;X2Y16/C6;X2Y16/C6/N130;1;X2Y16/Q4;;1;X2Y16/W100;X2Y16/W100/Q4;1;X2Y16/B4;X2Y16/B4/W100;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5007,14 +4921,14 @@
           "hide_name": 0,
           "bits": [ 7658 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F4;;1;X2Y17/XD4;X2Y17/XD4/F4;1"
+            "ROUTING": "X2Y16/F4;;1;X2Y16/XD4;X2Y16/XD4/F4;1"
           }
         },
         "delay_counter_DFFR_Q_22_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7656 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/COUT4;;1",
+            "ROUTING": "X2Y16/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5023,7 +4937,7 @@
           "hide_name": 0,
           "bits": [ 7654 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/E250;X2Y17/E250/Q5;1;X3Y17/N250;X3Y17/N250/E251;1;X3Y15/B5;X3Y15/B5/N252;1;X2Y17/N130;X2Y17/N130/Q5;1;X2Y16/E230;X2Y16/E230/N131;1;X3Y16/B6;X3Y16/B6/E231;1;X2Y17/Q5;;1;X2Y17/X08;X2Y17/X08/Q5;1;X2Y17/B5;X2Y17/B5/X08;1",
+            "ROUTING": "X2Y16/B6;X2Y16/B6/X08;1;X2Y16/S250;X2Y16/S250/Q5;1;X2Y17/B5;X2Y17/B5/S251;1;X2Y16/Q5;;1;X2Y16/X08;X2Y16/X08/Q5;1;X2Y16/B5;X2Y16/B5/X08;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5031,14 +4945,14 @@
           "hide_name": 0,
           "bits": [ 7653 ] ,
           "attributes": {
-            "ROUTING": "X2Y17/F5;;1;X2Y17/XD5;X2Y17/XD5/F5;1"
+            "ROUTING": "X2Y16/F5;;1;X2Y16/XD5;X2Y16/XD5/F5;1"
           }
         },
         "delay_counter_DFFR_Q_21_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7651 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/CIN0;;1",
+            "ROUTING": "X3Y16/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5047,7 +4961,7 @@
           "hide_name": 0,
           "bits": [ 7649 ] ,
           "attributes": {
-            "ROUTING": "X3Y15/E200;X3Y15/E200/N202;1;X4Y15/X05;X4Y15/X05/E201;1;X4Y15/B0;X4Y15/B0/X05;1;X3Y17/N200;X3Y17/N200/Q0;1;X3Y16/X01;X3Y16/X01/N201;1;X3Y16/A6;X3Y16/A6/X01;1;X3Y17/Q0;;1;X3Y17/X05;X3Y17/X05/Q0;1;X3Y17/B0;X3Y17/B0/X05;1",
+            "ROUTING": "X3Y16/W200;X3Y16/W200/Q0;1;X2Y16/X01;X2Y16/X01/W201;1;X2Y16/A6;X2Y16/A6/X01;1;X3Y17/B0;X3Y17/B0/S240;1;X3Y16/B0;X3Y16/B0/S100;1;X3Y16/Q0;;1;X3Y16/S100;X3Y16/S100/Q0;1;X3Y17/S240;X3Y17/S240/S101;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5055,14 +4969,14 @@
           "hide_name": 0,
           "bits": [ 7648 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F0;;1;X3Y17/XD0;X3Y17/XD0/F0;1"
+            "ROUTING": "X3Y16/F0;;1;X3Y16/XD0;X3Y16/XD0/F0;1"
           }
         },
         "delay_counter[29]": {
           "hide_name": 0,
           "bits": [ 7646 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/E100;X6Y17/E100/Q4;1;X7Y17/N200;X7Y17/N200/E101;1;X7Y15/X07;X7Y15/X07/N202;1;X7Y15/B0;X7Y15/B0/X07;1;X6Y17/Q4;;1;X6Y17/X07;X6Y17/X07/Q4;1;X6Y17/B0;X6Y17/B0/X07;1",
+            "ROUTING": "X6Y16/S200;X6Y16/S200/Q0;1;X6Y17/X07;X6Y17/X07/S201;1;X6Y17/B0;X6Y17/B0/X07;1;X6Y16/Q0;;1;X6Y16/X05;X6Y16/X05/Q0;1;X6Y16/B0;X6Y16/B0/X05;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5070,14 +4984,14 @@
           "hide_name": 0,
           "bits": [ 7645 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/F0;;1;X6Y17/D4;X6Y17/D4/F0;1"
+            "ROUTING": "X6Y16/F0;;1;X6Y16/XD0;X6Y16/XD0/F0;1"
           }
         },
         "delay_counter_DFFR_Q_1_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7643 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/COUT1;;1",
+            "ROUTING": "X6Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5086,7 +5000,7 @@
           "hide_name": 0,
           "bits": [ 7642 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/COUT0;;1",
+            "ROUTING": "X6Y16/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5095,7 +5009,7 @@
           "hide_name": 0,
           "bits": [ 7640 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/COUT0;;1",
+            "ROUTING": "X3Y16/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5104,7 +5018,7 @@
           "hide_name": 0,
           "bits": [ 7638 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/E130;X3Y16/E130/Q2;1;X4Y16/N230;X4Y16/N230/E131;1;X4Y15/B1;X4Y15/B1/N231;1;X3Y16/S100;X3Y16/S100/Q2;1;X3Y16/D5;X3Y16/D5/S100;1;X3Y16/Q2;;1;X3Y16/SN10;X3Y16/SN10/Q2;1;X3Y17/B1;X3Y17/B1/S111;1",
+            "ROUTING": "X3Y15/S240;X3Y15/S240/Q4;1;X3Y17/X05;X3Y17/X05/S242;1;X3Y17/B1;X3Y17/B1/X05;1;X3Y16/D6;X3Y16/D6/S111;1;X3Y15/Q4;;1;X3Y15/SN10;X3Y15/SN10/Q4;1;X3Y16/B1;X3Y16/B1/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5112,14 +5026,14 @@
           "hide_name": 0,
           "bits": [ 7637 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F1;;1;X3Y17/E100;X3Y17/E100/F1;1;X3Y17/N220;X3Y17/N220/E100;1;X3Y16/D2;X3Y16/D2/N221;1"
+            "ROUTING": "X3Y16/F1;;1;X3Y16/N130;X3Y16/N130/F1;1;X3Y15/D4;X3Y15/D4/N131;1"
           }
         },
         "delay_counter_DFFR_Q_19_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7635 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/COUT1;;1",
+            "ROUTING": "X3Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5128,7 +5042,7 @@
           "hide_name": 0,
           "bits": [ 7633 ] ,
           "attributes": {
-            "ROUTING": "X3Y16/N210;X3Y16/N210/N111;1;X3Y15/E210;X3Y15/E210/N211;1;X4Y15/B2;X4Y15/B2/E211;1;X3Y17/SN10;X3Y17/SN10/Q2;1;X3Y16/C5;X3Y16/C5/N111;1;X3Y17/Q2;;1;X3Y17/X01;X3Y17/X01/Q2;1;X3Y17/B2;X3Y17/B2/X01;1",
+            "ROUTING": "X3Y16/X05;X3Y16/X05/Q2;1;X3Y16/C6;X3Y16/C6/X05;1;X3Y16/SN10;X3Y16/SN10/Q2;1;X3Y17/B2;X3Y17/B2/S111;1;X3Y16/Q2;;1;X3Y16/X01;X3Y16/X01/Q2;1;X3Y16/B2;X3Y16/B2/X01;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5136,14 +5050,14 @@
           "hide_name": 0,
           "bits": [ 7632 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F2;;1;X3Y17/XD2;X3Y17/XD2/F2;1"
+            "ROUTING": "X3Y16/F2;;1;X3Y16/XD2;X3Y16/XD2/F2;1"
           }
         },
         "delay_counter_DFFR_Q_18_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7630 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/COUT2;;1",
+            "ROUTING": "X3Y16/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5152,7 +5066,7 @@
           "hide_name": 0,
           "bits": [ 7628 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/N230;X3Y17/N230/Q3;1;X3Y15/E230;X3Y15/E230/N232;1;X4Y15/B3;X4Y15/B3/E231;1;X3Y17/N100;X3Y17/N100/Q3;1;X3Y16/B5;X3Y16/B5/N101;1;X3Y17/Q3;;1;X3Y17/B3;X3Y17/B3/Q3;1",
+            "ROUTING": "X3Y16/W130;X3Y16/W130/Q3;1;X3Y16/B6;X3Y16/B6/W130;1;X3Y16/S230;X3Y16/S230/Q3;1;X3Y17/B3;X3Y17/B3/S231;1;X3Y16/Q3;;1;X3Y16/B3;X3Y16/B3/Q3;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5160,14 +5074,14 @@
           "hide_name": 0,
           "bits": [ 7627 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F3;;1;X3Y17/XD3;X3Y17/XD3/F3;1"
+            "ROUTING": "X3Y16/F3;;1;X3Y16/XD3;X3Y16/XD3/F3;1"
           }
         },
         "delay_counter_DFFR_Q_17_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7625 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/COUT3;;1",
+            "ROUTING": "X3Y16/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5176,7 +5090,7 @@
           "hide_name": 0,
           "bits": [ 7623 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/SN20;X3Y17/SN20/Q4;1;X3Y16/A5;X3Y16/A5/N121;1;X3Y17/E130;X3Y17/E130/Q4;1;X4Y17/N270;X4Y17/N270/E131;1;X4Y15/B4;X4Y15/B4/N272;1;X3Y17/Q4;;1;X3Y17/W100;X3Y17/W100/Q4;1;X3Y17/B4;X3Y17/B4/W100;1",
+            "ROUTING": "X3Y16/A6;X3Y16/A6/X03;1;X3Y16/SN20;X3Y16/SN20/Q4;1;X3Y17/B4;X3Y17/B4/S121;1;X3Y16/Q4;;1;X3Y16/X03;X3Y16/X03/Q4;1;X3Y16/B4;X3Y16/B4/X03;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5184,14 +5098,14 @@
           "hide_name": 0,
           "bits": [ 7622 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F4;;1;X3Y17/XD4;X3Y17/XD4/F4;1"
+            "ROUTING": "X3Y16/F4;;1;X3Y16/XD4;X3Y16/XD4/F4;1"
           }
         },
         "delay_counter_DFFR_Q_16_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7620 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/COUT4;;1",
+            "ROUTING": "X3Y16/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5200,7 +5114,7 @@
           "hide_name": 0,
           "bits": [ 7618 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/EW20;X3Y17/EW20/Q5;1;X4Y17/N220;X4Y17/N220/E121;1;X4Y16/C6;X4Y16/C6/N221;1;X3Y17/EW10;X3Y17/EW10/Q5;1;X4Y17/N250;X4Y17/N250/E111;1;X4Y15/B5;X4Y15/B5/N252;1;X3Y17/Q5;;1;X3Y17/E250;X3Y17/E250/Q5;1;X3Y17/B5;X3Y17/B5/E250;1",
+            "ROUTING": "X3Y15/S130;X3Y15/S130/Q1;1;X3Y16/S270;X3Y16/S270/S131;1;X3Y17/B5;X3Y17/B5/S271;1;X3Y15/EW20;X3Y15/EW20/Q1;1;X4Y15/S220;X4Y15/S220/E121;1;X4Y16/C7;X4Y16/C7/S221;1;X3Y15/Q1;;1;X3Y15/SN20;X3Y15/SN20/Q1;1;X3Y16/B5;X3Y16/B5/S121;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5208,14 +5122,14 @@
           "hide_name": 0,
           "bits": [ 7617 ] ,
           "attributes": {
-            "ROUTING": "X3Y17/F5;;1;X3Y17/XD5;X3Y17/XD5/F5;1"
+            "ROUTING": "X3Y16/F5;;1;X3Y16/N100;X3Y16/N100/F5;1;X3Y15/D1;X3Y15/D1/N101;1"
           }
         },
         "delay_counter_DFFR_Q_15_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7615 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/CIN0;;1",
+            "ROUTING": "X4Y16/CIN0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5224,7 +5138,7 @@
           "hide_name": 0,
           "bits": [ 7613 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/EW20;X4Y17/EW20/Q0;1;X5Y17/N220;X5Y17/N220/E121;1;X5Y15/X05;X5Y15/X05/N222;1;X5Y15/B0;X5Y15/B0/X05;1;X4Y17/Q0;;1;X4Y17/X05;X4Y17/X05/Q0;1;X4Y17/B0;X4Y17/B0/X05;1",
+            "ROUTING": "X4Y16/SN10;X4Y16/SN10/Q0;1;X4Y17/B0;X4Y17/B0/S111;1;X4Y16/Q0;;1;X4Y16/X05;X4Y16/X05/Q0;1;X4Y16/B0;X4Y16/B0/X05;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5232,14 +5146,14 @@
           "hide_name": 0,
           "bits": [ 7612 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F0;;1;X4Y17/XD0;X4Y17/XD0/F0;1"
+            "ROUTING": "X4Y16/F0;;1;X4Y16/XD0;X4Y16/XD0/F0;1"
           }
         },
         "delay_counter_DFFR_Q_14_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7610 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/COUT0;;1",
+            "ROUTING": "X4Y16/COUT0;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5248,7 +5162,7 @@
           "hide_name": 0,
           "bits": [ 7608 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/N100;X4Y17/N100/Q1;1;X4Y16/B6;X4Y16/B6/N101;1;X4Y17/N210;X4Y17/N210/Q1;1;X4Y15/E210;X4Y15/E210/N212;1;X5Y15/B1;X5Y15/B1/E211;1;X4Y17/Q1;;1;X4Y17/B1;X4Y17/B1/Q1;1",
+            "ROUTING": "X4Y16/W130;X4Y16/W130/Q1;1;X4Y16/B7;X4Y16/B7/W130;1;X4Y16/S210;X4Y16/S210/Q1;1;X4Y17/B1;X4Y17/B1/S211;1;X4Y16/Q1;;1;X4Y16/B1;X4Y16/B1/Q1;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5256,14 +5170,14 @@
           "hide_name": 0,
           "bits": [ 7607 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F1;;1;X4Y17/XD1;X4Y17/XD1/F1;1"
+            "ROUTING": "X4Y16/F1;;1;X4Y16/XD1;X4Y16/XD1/F1;1"
           }
         },
         "delay_counter_DFFR_Q_13_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7605 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/COUT1;;1",
+            "ROUTING": "X4Y16/COUT1;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5272,7 +5186,7 @@
           "hide_name": 0,
           "bits": [ 7603 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/EW10;X4Y17/EW10/Q2;1;X5Y17/N210;X5Y17/N210/E111;1;X5Y15/B2;X5Y15/B2/N212;1;X4Y16/A6;X4Y16/A6/N121;1;X4Y17/SN20;X4Y17/SN20/Q2;1;X4Y17/Q2;;1;X4Y17/S130;X4Y17/S130/Q2;1;X4Y17/B2;X4Y17/B2/S130;1",
+            "ROUTING": "X4Y16/X01;X4Y16/X01/Q2;1;X4Y16/A7;X4Y16/A7/X01;1;X4Y16/S100;X4Y16/S100/Q2;1;X4Y17/W240;X4Y17/W240/S101;1;X4Y17/B2;X4Y17/B2/W240;1;X4Y16/Q2;;1;X4Y16/S130;X4Y16/S130/Q2;1;X4Y16/B2;X4Y16/B2/S130;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5280,14 +5194,14 @@
           "hide_name": 0,
           "bits": [ 7602 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F2;;1;X4Y17/XD2;X4Y17/XD2/F2;1"
+            "ROUTING": "X4Y16/F2;;1;X4Y16/XD2;X4Y16/XD2/F2;1"
           }
         },
         "delay_counter_DFFR_Q_12_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7600 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/COUT2;;1",
+            "ROUTING": "X4Y16/COUT2;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5296,7 +5210,7 @@
           "hide_name": 0,
           "bits": [ 7598 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/N230;X4Y17/N230/Q3;1;X4Y15/E230;X4Y15/E230/N232;1;X5Y15/B3;X5Y15/B3/E231;1;X4Y17/Q3;;1;X4Y17/B3;X4Y17/B3/Q3;1",
+            "ROUTING": "X4Y16/S230;X4Y16/S230/Q3;1;X4Y17/B3;X4Y17/B3/S231;1;X4Y16/Q3;;1;X4Y16/B3;X4Y16/B3/Q3;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5304,28 +5218,28 @@
           "hide_name": 0,
           "bits": [ 7597 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F3;;1;X4Y17/XD3;X4Y17/XD3/F3;1"
+            "ROUTING": "X4Y16/F3;;1;X4Y16/XD3;X4Y16/XD3/F3;1"
           }
         },
         "$PACKER_GND": {
           "hide_name": 1,
-          "bits": [ 7904 ] ,
+          "bits": [ 7902 ] ,
           "attributes": {
-            "ROUTING": "X6Y15/A2;X6Y15/A2/N210;1;X6Y15/D1;X6Y15/D1/E270;1;X3Y17/A3;X3Y17/A3/N251;1;X3Y17/A2;X3Y17/A2/N251;1;X1Y19/LSR1;X1Y19/LSR1/E212;1;X3Y15/D3;X3Y15/D3/S270;1;X1Y17/A5;X1Y17/A5/W210;1;X4Y15/D4;X4Y15/D4/W270;1;X1Y15/LSR2;X1Y15/LSR2/W211;1;X6Y15/D5;X6Y15/D5/W270;1;X1Y17/W210;X1Y17/W210/VSS;1;X1Y17/A4;X1Y17/A4/W210;1;X4Y15/D0;X4Y15/D0/E270;1;X5Y15/D2;X5Y15/D2/S270;1;X5Y15/E210;X5Y15/E210/VSS;1;X5Y15/A0;X5Y15/A0/E210;1;X5Y15/D0;X5Y15/D0/E270;1;X2Y16/W210;X2Y16/W210/VSS;1;X1Y16/LSR1;X1Y16/LSR1/W211;1;X5Y15/D5;X5Y15/D5/W270;1;X3Y15/A2;X3Y15/A2/N210;1;X2Y15/A2;X2Y15/A2/N210;1;X3Y15/D1;X3Y15/D1/E270;1;X4Y17/A3;X4Y17/A3/S271;1;X4Y15/E270;X4Y15/E270/VSS;1;X4Y15/D1;X4Y15/D1/E270;1;X4Y15/D3;X4Y15/D3/S270;1;X6Y15/D3;X6Y15/D3/S270;1;X7Y15/N210;X7Y15/N210/VSS;1;X7Y15/A2;X7Y15/A2/N210;1;X5Y15/N210;X5Y15/N210/VSS;1;X5Y15/A3;X5Y15/A3/N210;1;X6Y18/N270;X6Y18/N270/VSS;1;X6Y17/A2;X6Y17/A2/N271;1;X5Y17/A1;X5Y17/A1/E210;1;X1Y20/LSR0;X1Y20/LSR0/S271;1;X4Y17/A0;X4Y17/A0/E210;1;X3Y15/N210;X3Y15/N210/VSS;1;X3Y15/A3;X3Y15/A3/N210;1;X6Y15/W270;X6Y15/W270/VSS;1;X6Y15/D4;X6Y15/D4/W270;1;X1Y17/A2;X1Y17/A2/N210;1;X3Y17/A5;X3Y17/A5/N211;1;X5Y17/A3;X5Y17/A3/N271;1;X2Y15/D2;X2Y15/D2/S270;1;X3Y15/E270;X3Y15/E270/VSS;1;X3Y15/D0;X3Y15/D0/E270;1;X3Y15/S270;X3Y15/S270/VSS;1;X3Y15/D2;X3Y15/D2/S270;1;X5Y18/N270;X5Y18/N270/VSS;1;X5Y17/A2;X5Y17/A2/N271;1;X0Y19/W210;X0Y19/W210/VSS;1;X2Y15/A1;X2Y15/A1/W271;1;X6Y15/S270;X6Y15/S270/VSS;1;X6Y15/D2;X6Y15/D2/S270;1;X2Y15/S270;X2Y15/S270/VSS;1;X2Y15/D3;X2Y15/D3/S270;1;X1Y17/N210;X1Y17/N210/VSS;1;X1Y17/A3;X1Y17/A3/N210;1;X4Y15/W270;X4Y15/W270/VSS;1;X4Y15/D5;X4Y15/D5/W270;1;X2Y15/E270;X2Y15/E270/VSS;1;X2Y15/D1;X2Y15/D1/E270;1;X2Y17/A0;X2Y17/A0/E210;1;X4Y15/S270;X4Y15/S270/VSS;1;X4Y15/D2;X4Y15/D2/S270;1;X5Y17/A5;X5Y17/A5/W210;1;X7Y15/E270;X7Y15/E270/VSS;1;X7Y15/D1;X7Y15/D1/E270;1;X3Y17/A1;X3Y17/A1/E210;1;X6Y17/A1;X6Y17/A1/E210;1;X4Y16/S270;X4Y16/S270/VSS;1;X4Y17/A2;X4Y17/A2/S271;1;X6Y15/E270;X6Y15/E270/VSS;1;X6Y15/D0;X6Y15/D0/E270;1;X7Y15/A1;X7Y15/A1/E210;1;X3Y18/N210;X3Y18/N210/VSS;1;X3Y17/A4;X3Y17/A4/N211;1;X5Y17/A4;X5Y17/A4/W210;1;X6Y15/N210;X6Y15/N210/VSS;1;X6Y15/A3;X6Y15/A3/N210;1;X2Y15/N210;X2Y15/N210/VSS;1;X2Y15/A3;X2Y15/A3/N210;1;X2Y17/A2;X2Y17/A2/N210;1;X7Y15/S270;X7Y15/S270/VSS;1;X7Y15/D2;X7Y15/D2/S270;1;X5Y15/W210;X5Y15/W210/VSS;1;X5Y15/A4;X5Y15/A4/W210;1;X2Y15/A4;X2Y15/A4/W210;1;X7Y15/D0;X7Y15/D0/E270;1;X7Y15/E210;X7Y15/E210/VSS;1;X7Y15/A0;X7Y15/A0/E210;1;X6Y15/A4;X6Y15/A4/W210;1;X5Y15/S270;X5Y15/S270/VSS;1;X5Y15/D3;X5Y15/D3/S270;1;X2Y17/E210;X2Y17/E210/VSS;1;X2Y17/A1;X2Y17/A1/E210;1;X6Y15/E210;X6Y15/E210/VSS;1;X6Y15/A1;X6Y15/A1/E210;1;X4Y17/E210;X4Y17/E210/VSS;1;X4Y17/A1;X4Y17/A1/E210;1;X3Y17/E210;X3Y17/E210/VSS;1;X3Y17/A0;X3Y17/A0/E210;1;X5Y15/W270;X5Y15/W270/VSS;1;X5Y15/D4;X5Y15/D4/W270;1;X5Y17/E210;X5Y17/E210/VSS;1;X5Y17/A0;X5Y17/A0/E210;1;X3Y15/D5;X3Y15/D5/W270;1;X6Y15/W210;X6Y15/W210/VSS;1;X6Y15/A5;X6Y15/A5/W210;1;X4Y17/A4;X4Y17/A4/W210;1;X2Y15/W270;X2Y15/W270/VSS;1;X2Y15/D5;X2Y15/D5/W270;1;X2Y17/W210;X2Y17/W210/VSS;1;X2Y17/A4;X2Y17/A4/W210;1;X4Y17/W210;X4Y17/W210/VSS;1;X4Y17/A5;X4Y17/A5/W210;1;X2Y15/W210;X2Y15/W210/VSS;1;X2Y15/A5;X2Y15/A5/W210;1;X6Y17/E210;X6Y17/E210/VSS;1;X6Y17/A0;X6Y17/A0/E210;1;X2Y17/A5;X2Y17/A5/W210;1;X5Y17/W210;X5Y17/W210/VSS;1;X5Y15/E270;X5Y15/E270/VSS;1;X5Y15/D1;X5Y15/D1/E270;1;X2Y17/N210;X2Y17/N210/VSS;1;X2Y17/A3;X2Y17/A3/N210;1;X3Y15/W270;X3Y15/W270/VSS;1;X3Y15/D4;X3Y15/D4/W270;1;X2Y15/D4;X2Y15/D4/W270;1;X3Y18/N250;X3Y18/N250/VSS;1;X0Y0/VSS;;1;X1Y19/S270;X1Y19/S270/VSS;1;X1Y20/LSR2;X1Y20/LSR2/S271;1"
+            "ROUTING": "X3Y16/A4;X3Y16/A4/S211;1;X4Y17/D1;X4Y17/D1/E270;1;X6Y17/D1;X6Y17/D1/E270;1;X5Y17/D2;X5Y17/D2/S270;1;X2Y17/D1;X2Y17/D1/E270;1;X2Y15/W210;X2Y15/W210/VSS;1;X1Y15/LSR2;X1Y15/LSR2/W211;1;X3Y16/A2;X3Y16/A2/N251;1;X5Y17/A4;X5Y17/A4/W210;1;X2Y17/A3;X2Y17/A3/N210;1;X5Y16/A2;X5Y16/A2/N210;1;X3Y17/D5;X3Y17/D5/W270;1;X5Y17/A3;X5Y17/A3/N210;1;X1Y17/A5;X1Y17/A5/W210;1;X1Y17/A3;X1Y17/A3/N210;1;X5Y16/A5;X5Y16/A5/W210;1;X1Y17/E270;X1Y17/E270/VSS;1;X1Y17/D1;X1Y17/D1/E270;1;X4Y16/A3;X4Y16/A3/N251;1;X3Y17/D2;X3Y17/D2/S270;1;X1Y17/E210;X1Y17/E210/VSS;1;X1Y17/A1;X1Y17/A1/E210;1;X1Y17/N210;X1Y17/N210/VSS;1;X1Y17/A2;X1Y17/A2/N210;1;X1Y17/D5;X1Y17/D5/W270;1;X6Y17/A1;X6Y17/A1/E210;1;X3Y15/S210;X3Y15/S210/VSS;1;X3Y16/A5;X3Y16/A5/S211;1;X2Y16/A5;X2Y16/A5/W210;1;X2Y16/A1;X2Y16/A1/E210;1;X4Y17/D2;X4Y17/D2/S270;1;X3Y17/N250;X3Y17/N250/VSS;1;X3Y16/A3;X3Y16/A3/N251;1;X4Y17/E270;X4Y17/E270/VSS;1;X4Y17/D0;X4Y17/D0/E270;1;X4Y17/E210;X4Y17/E210/VSS;1;X4Y17/A0;X4Y17/A0/E210;1;X6Y16/E210;X6Y16/E210/VSS;1;X6Y16/A1;X6Y16/A1/E210;1;X5Y17/D1;X5Y17/D1/E270;1;X4Y16/A1;X4Y16/A1/E210;1;X1Y17/D2;X1Y17/D2/S270;1;X5Y16/A1;X5Y16/A1/E210;1;X2Y17/D2;X2Y17/D2/S270;1;X5Y17/E270;X5Y17/E270/VSS;1;X5Y17/D0;X5Y17/D0/E270;1;X4Y16/A5;X4Y16/A5/W210;1;X5Y17/N210;X5Y17/N210/VSS;1;X5Y17/A2;X5Y17/A2/N210;1;X4Y17/D5;X4Y17/D5/W270;1;X5Y16/N210;X5Y16/N210/VSS;1;X5Y16/A3;X5Y16/A3/N210;1;X4Y17/N250;X4Y17/N250/VSS;1;X4Y16/A2;X4Y16/A2/N251;1;X6Y17/E210;X6Y17/E210/VSS;1;X6Y17/A0;X6Y17/A0/E210;1;X2Y17/E270;X2Y17/E270/VSS;1;X2Y17/D0;X2Y17/D0/E270;1;X2Y17/S270;X2Y17/S270/VSS;1;X2Y17/D3;X2Y17/D3/S270;1;X4Y17/N210;X4Y17/N210/VSS;1;X4Y17/A3;X4Y17/A3/N210;1;X3Y17/S270;X3Y17/S270/VSS;1;X3Y17/D3;X3Y17/D3/S270;1;X1Y20/LSR1;X1Y20/LSR1/E271;1;X1Y17/W270;X1Y17/W270/VSS;1;X1Y17/D4;X1Y17/D4/W270;1;X5Y17/E210;X5Y17/E210/VSS;1;X5Y17/A1;X5Y17/A1/E210;1;X4Y16/E210;X4Y16/E210/VSS;1;X4Y16/A0;X4Y16/A0/E210;1;X5Y16/E210;X5Y16/E210/VSS;1;X5Y16/A0;X5Y16/A0/E210;1;X4Y17/W270;X4Y17/W270/VSS;1;X4Y17/D4;X4Y17/D4/W270;1;X5Y17/W210;X5Y17/W210/VSS;1;X5Y17/A5;X5Y17/A5/W210;1;X6Y16/N210;X6Y16/N210/VSS;1;X6Y16/A2;X6Y16/A2/N210;1;X1Y16/A5;X1Y16/A5/W210;1;X5Y17/S270;X5Y17/S270/VSS;1;X5Y17/D3;X5Y17/D3/S270;1;X6Y17/N210;X6Y17/N210/VSS;1;X6Y17/A2;X6Y17/A2/N210;1;X1Y17/S270;X1Y17/S270/VSS;1;X1Y17/D3;X1Y17/D3/S270;1;X3Y17/D0;X3Y17/D0/E270;1;X6Y16/A0;X6Y16/A0/E210;1;X2Y16/W210;X2Y16/W210/VSS;1;X2Y16/A4;X2Y16/A4/W210;1;X2Y17/N210;X2Y17/N210/VSS;1;X2Y17/A2;X2Y17/A2/N210;1;X4Y16/W210;X4Y16/W210/VSS;1;X4Y16/A4;X4Y16/A4/W210;1;X4Y17/W210;X4Y17/W210/VSS;1;X4Y17/A4;X4Y17/A4/W210;1;X5Y17/D4;X5Y17/D4/W270;1;X6Y17/S270;X6Y17/S270/VSS;1;X6Y17/D2;X6Y17/D2/S270;1;X1Y16/W210;X1Y16/W210/VSS;1;X1Y16/A4;X1Y16/A4/W210;1;X5Y17/W270;X5Y17/W270/VSS;1;X5Y17/D5;X5Y17/D5/W270;1;X1Y13/S270;X1Y13/S270/VSS;1;X1Y14/LSR0;X1Y14/LSR0/S271;1;X3Y17/E270;X3Y17/E270/VSS;1;X3Y17/D1;X3Y17/D1/E270;1;X0Y20/E270;X0Y20/E270/VSS;1;X1Y20/LSR2;X1Y20/LSR2/E271;1;X2Y17/D4;X2Y17/D4/W270;1;X5Y16/W210;X5Y16/W210/VSS;1;X5Y16/A4;X5Y16/A4/W210;1;X2Y16/E210;X2Y16/E210/VSS;1;X2Y16/A0;X2Y16/A0/E210;1;X1Y16/A3;X1Y16/A3/N210;1;X3Y17/W270;X3Y17/W270/VSS;1;X3Y17/D4;X3Y17/D4/W270;1;X1Y17/W210;X1Y17/W210/VSS;1;X1Y17/A4;X1Y17/A4/W210;1;X6Y17/E270;X6Y17/E270/VSS;1;X6Y17/D0;X6Y17/D0/E270;1;X2Y16/A2;X2Y16/A2/N210;1;X2Y17/W270;X2Y17/W270/VSS;1;X2Y17/D5;X2Y17/D5/W270;1;X1Y16/N210;X1Y16/N210/VSS;1;X1Y16/A2;X1Y16/A2/N210;1;X2Y16/N210;X2Y16/N210/VSS;1;X2Y16/A3;X2Y16/A3/N210;1;X3Y16/A1;X3Y16/A1/E210;1;X3Y16/E210;X3Y16/E210/VSS;1;X3Y16/A0;X3Y16/A0/E210;1;X0Y0/VSS;;1;X4Y17/S270;X4Y17/S270/VSS;1;X4Y17/D3;X4Y17/D3/S270;1"
           }
         },
         "$PACKER_VCC": {
           "hide_name": 1,
-          "bits": [ 7903 ] ,
+          "bits": [ 7901 ] ,
           "attributes": {
-            "ROUTING": "X5Y17/D2;X5Y17/D2/X08;1;X1Y17/D3;X1Y17/D3/X08;1;X5Y17/C4;X5Y17/C4/X08;1;X3Y15/C3;X3Y15/C3/X04;1;X4Y15/C0;X4Y15/C0/X04;1;X2Y17/C4;X2Y17/C4/S220;1;X5Y17/D5;X5Y17/D5/X07;1;X6Y15/N200;X6Y15/N200/VCC;1;X6Y15/A0;X6Y15/A0/N200;1;X4Y15/C4;X4Y15/C4/X08;1;X2Y15/C1;X2Y15/C1/X04;1;X4Y17/C1;X4Y17/C1/X04;1;X7Y15/C2;X7Y15/C2/X04;1;X5Y17/C0;X5Y17/C0/X04;1;X5Y17/D1;X5Y17/D1/X08;1;X2Y17/D2;X2Y17/D2/E260;1;X2Y15/C5;X2Y15/C5/X08;1;X2Y17/C1;X2Y17/C1/X04;1;X6Y17/C1;X6Y17/C1/X04;1;X1Y17/C0;X1Y17/C0/N220;1;X4Y17/C4;X4Y17/C4/S220;1;X1Y17/C3;X1Y17/C3/W220;1;X1Y17/C5;X1Y17/C5/X08;1;X4Y17/D1;X4Y17/D1/E270;1;X4Y15/A5;X4Y15/A5/X07;1;X5Y17/C1;X5Y17/C1/X04;1;X4Y15/C3;X4Y15/C3/X04;1;X2Y15/C3;X2Y15/C3/X04;1;X5Y15/A5;X5Y15/A5/X07;1;X6Y15/C1;X6Y15/C1/X04;1;X5Y15/C2;X5Y15/C2/X04;1;X5Y15/C5;X5Y15/C5/X08;1;X6Y17/D0;X6Y17/D0/X03;1;X1Y17/N220;X1Y17/N220/VCC;1;X1Y17/C1;X1Y17/C1/N220;1;X2Y17/C3;X2Y17/C3/X04;1;X3Y17/D4;X3Y17/D4/X04;1;X6Y17/D1;X6Y17/D1/X03;1;X4Y17/C0;X4Y17/C0/X04;1;X4Y15/C1;X4Y15/C1/X04;1;X5Y17/D0;X5Y17/D0/X08;1;X4Y17/E270;X4Y17/E270/VCC;1;X4Y17/D0;X4Y17/D0/E270;1;X4Y15/X07;X4Y15/X07/VCC;1;X4Y15/A4;X4Y15/A4/X07;1;X1Y17/D2;X1Y17/D2/X08;1;X4Y15/X08;X4Y15/X08/VCC;1;X4Y15/C5;X4Y15/C5/X08;1;X3Y15/A4;X3Y15/A4/X07;1;X5Y15/C0;X5Y15/C0/X04;1;X3Y17/C0;X3Y17/C0/X04;1;X5Y17/C2;X5Y17/C2/X04;1;X3Y17/C4;X3Y17/C4/S220;1;X4Y15/A2;X4Y15/A2/E200;1;X5Y15/X07;X5Y15/X07/VCC;1;X5Y15/A2;X5Y15/A2/X07;1;X5Y17/X04;X5Y17/X04/VCC;1;X5Y17/C3;X5Y17/C3/X04;1;X1Y17/D1;X1Y17/D1/X08;1;X1Y17/X08;X1Y17/X08/VCC;1;X1Y17/C4;X1Y17/C4/X08;1;X4Y17/D2;X4Y17/D2/E260;1;X7Y15/C1;X7Y15/C1/X04;1;X5Y15/N200;X5Y15/N200/VCC;1;X5Y15/A1;X5Y15/A1/N200;1;X3Y17/S220;X3Y17/S220/VCC;1;X3Y17/C5;X3Y17/C5/S220;1;X6Y17/C2;X6Y17/C2/X04;1;X3Y15/C5;X3Y15/C5/S220;1;X3Y17/C2;X3Y17/C2/X04;1;X2Y17/E260;X2Y17/E260/VCC;1;X2Y17/D3;X2Y17/D3/E260;1;X4Y17/C2;X4Y17/C2/X04;1;X2Y17/S220;X2Y17/S220/VCC;1;X2Y17/C5;X2Y17/C5/S220;1;X2Y17/C2;X2Y17/C2/X04;1;X2Y17/D1;X2Y17/D1/E270;1;X2Y15/C0;X2Y15/C0/X04;1;X4Y15/E200;X4Y15/E200/VCC;1;X4Y15/A3;X4Y15/A3/E200;1;X3Y15/A1;X3Y15/A1/X03;1;X2Y17/D4;X2Y17/D4/X04;1;X7Y15/C3;X7Y15/C3/X04;1;X1Y17/N200;X1Y17/N200/VCC;1;X1Y17/A1;X1Y17/A1/N200;1;X6Y17/X03;X6Y17/X03/VCC;1;X6Y17/D2;X6Y17/D2/X03;1;X1Y17/D5;X1Y17/D5/W270;1;X3Y17/C3;X3Y17/C3/X04;1;X3Y17/D5;X3Y17/D5/X04;1;X4Y17/S220;X4Y17/S220/VCC;1;X4Y17/C5;X4Y17/C5/S220;1;X3Y15/S220;X3Y15/S220/VCC;1;X3Y15/C4;X3Y15/C4/S220;1;X2Y17/C0;X2Y17/C0/X04;1;X4Y15/A0;X4Y15/A0/X03;1;X6Y15/C4;X6Y15/C4/X08;1;X6Y15/X08;X6Y15/X08/VCC;1;X6Y15/C5;X6Y15/C5/X08;1;X3Y17/D1;X3Y17/D1/X03;1;X6Y15/C0;X6Y15/C0/X04;1;X3Y15/X04;X3Y15/X04/VCC;1;X3Y15/C2;X3Y15/C2/X04;1;X3Y17/D3;X3Y17/D3/X03;1;X5Y15/C3;X5Y15/C3/X04;1;X4Y15/X03;X4Y15/X03/VCC;1;X4Y15/A1;X4Y15/A1/X03;1;X3Y15/X07;X3Y15/X07/VCC;1;X3Y15/A5;X3Y15/A5/X07;1;X6Y15/C3;X6Y15/C3/X04;1;X3Y17/D0;X3Y17/D0/X03;1;X3Y15/C0;X3Y15/C0/N220;1;X5Y17/X07;X5Y17/X07/VCC;1;X5Y17/D4;X5Y17/D4/X07;1;X5Y17/C5;X5Y17/C5/X08;1;X1Y17/W270;X1Y17/W270/VCC;1;X1Y17/D4;X1Y17/D4/W270;1;X4Y17/X04;X4Y17/X04/VCC;1;X4Y17/C3;X4Y17/C3/X04;1;X5Y15/X04;X5Y15/X04/VCC;1;X5Y15/C1;X5Y15/C1/X04;1;X4Y17/D4;X4Y17/D4/N260;1;X6Y17/X04;X6Y17/X04/VCC;1;X6Y17/C0;X6Y17/C0/X04;1;X4Y17/N260;X4Y17/N260/VCC;1;X4Y17/D5;X4Y17/D5/N260;1;X0Y0/W260;X0Y0/W260/VCC;1;X0Y0/C4;X0Y0/C4/E261;1;X4Y17/E260;X4Y17/E260/VCC;1;X4Y17/D3;X4Y17/D3/E260;1;X5Y17/X08;X5Y17/X08/VCC;1;X5Y17/D3;X5Y17/D3/X08;1;X2Y17/X04;X2Y17/X04/VCC;1;X2Y17/D5;X2Y17/D5/X04;1;X3Y17/X04;X3Y17/X04/VCC;1;X3Y17/C1;X3Y17/C1/X04;1;X3Y15/N220;X3Y15/N220/VCC;1;X3Y15/C1;X3Y15/C1/N220;1;X6Y15/X04;X6Y15/X04/VCC;1;X6Y15/C2;X6Y15/C2/X04;1;X7Y15/X04;X7Y15/X04/VCC;1;X7Y15/C0;X7Y15/C0/X04;1;X4Y15/X04;X4Y15/X04/VCC;1;X4Y15/C2;X4Y15/C2/X04;1;X2Y15/X04;X2Y15/X04/VCC;1;X2Y15/C2;X2Y15/C2/X04;1;X1Y17/W220;X1Y17/W220/VCC;1;X1Y17/C2;X1Y17/C2/W220;1;X3Y15/X03;X3Y15/X03/VCC;1;X3Y15/A0;X3Y15/A0/X03;1;X2Y17/E270;X2Y17/E270/VCC;1;X2Y17/D0;X2Y17/D0/E270;1;X5Y15/X08;X5Y15/X08/VCC;1;X5Y15/C4;X5Y15/C4/X08;1;X3Y17/X03;X3Y17/X03/VCC;1;X3Y17/D2;X3Y17/D2/X03;1;X0Y0/VCC;;1;X2Y15/X08;X2Y15/X08/VCC;1;X2Y15/C4;X2Y15/C4/X08;1"
+            "ROUTING": "X3Y17/A4;X3Y17/A4/X07;1;X5Y16/C4;X5Y16/C4/N221;1;X5Y17/C3;X5Y17/C3/X04;1;X1Y16/C3;X1Y16/C3/X04;1;X3Y16/C2;X3Y16/C2/X04;1;X5Y17/N220;X5Y17/N220/VCC;1;X5Y16/C5;X5Y16/C5/N221;1;X4Y16/D2;X4Y16/D2/S270;1;X5Y17/C1;X5Y17/C1/X04;1;X4Y17/C4;X4Y17/C4/X08;1;X6Y17/C2;X6Y17/C2/X04;1;X4Y17/C3;X4Y17/C3/X04;1;X2Y17/C3;X2Y17/C3/X04;1;X4Y16/S270;X4Y16/S270/VCC;1;X4Y16/D3;X4Y16/D3/S270;1;X1Y17/C2;X1Y17/C2/X04;1;X5Y16/C3;X5Y16/C3/X04;1;X1Y16/D3;X1Y16/D3/X03;1;X3Y16/C4;X3Y16/C4/X08;1;X2Y16/C1;X2Y16/C1/X04;1;X5Y17/C4;X5Y17/C4/X08;1;X4Y17/A2;X4Y17/A2/X07;1;X2Y16/C0;X2Y16/C0/X04;1;X2Y17/C1;X2Y17/C1/X04;1;X4Y16/C4;X4Y16/C4/S220;1;X2Y16/C3;X2Y16/C3/X04;1;X4Y16/C3;X4Y16/C3/X04;1;X5Y16/D4;X5Y16/D4/X04;1;X1Y16/D2;X1Y16/D2/X03;1;X1Y17/C3;X1Y17/C3/X04;1;X4Y17/C1;X4Y17/C1/X04;1;X3Y17/A2;X3Y17/A2/X07;1;X5Y16/D5;X5Y16/D5/X04;1;X4Y17/N200;X4Y17/N200/VCC;1;X4Y17/A1;X4Y17/A1/N200;1;X3Y17/C0;X3Y17/C0/X04;1;X1Y16/C2;X1Y16/C2/X04;1;X3Y17/A3;X3Y17/A3/X07;1;X5Y16/D0;X5Y16/D0/S260;1;X1Y16/A1;X1Y16/A1/X03;1;X2Y17/A0;X2Y17/A0/X03;1;X4Y16/C1;X4Y16/C1/X04;1;X1Y17/C5;X1Y17/C5/X08;1;X3Y17/C3;X3Y17/C3/X04;1;X1Y17/X08;X1Y17/X08/VCC;1;X1Y17/C4;X1Y17/C4/X08;1;X6Y16/C0;X6Y16/C0/X04;1;X3Y17/A0;X3Y17/A0/X03;1;X5Y16/C1;X5Y16/C1/X04;1;X3Y17/C1;X3Y17/C1/X04;1;X1Y16/X03;X1Y16/X03/VCC;1;X1Y16/D1;X1Y16/D1/X03;1;X3Y16/D1;X3Y16/D1/X08;1;X1Y16/C4;X1Y16/C4/S220;1;X2Y16/D5;X2Y16/D5/X04;1;X6Y16/D1;X6Y16/D1/X08;1;X2Y16/C2;X2Y16/C2/X04;1;X5Y17/X03;X5Y17/X03/VCC;1;X5Y17/A0;X5Y17/A0/X03;1;X5Y17/C0;X5Y17/C0/X04;1;X2Y16/C4;X2Y16/C4/S220;1;X3Y17/X03;X3Y17/X03/VCC;1;X3Y17/A1;X3Y17/A1/X03;1;X2Y16/D0;X2Y16/D0/X03;1;X1Y16/C1;X1Y16/C1/X04;1;X4Y16/D4;X4Y16/D4/X04;1;X4Y17/X07;X4Y17/X07/VCC;1;X4Y17/A5;X4Y17/A5/X07;1;X3Y16/C0;X3Y16/C0/X04;1;X4Y17/C2;X4Y17/C2/X04;1;X3Y16/C1;X3Y16/C1/X04;1;X4Y16/D5;X4Y16/D5/X04;1;X4Y16/C2;X4Y16/C2/X04;1;X2Y16/D1;X2Y16/D1/X03;1;X1Y16/X04;X1Y16/X04/VCC;1;X1Y16/C0;X1Y16/C0/X04;1;X1Y16/D4;X1Y16/D4/X07;1;X2Y17/C5;X2Y17/C5/X08;1;X5Y16/D3;X5Y16/D3/S270;1;X3Y17/C5;X3Y17/C5/X08;1;X2Y16/X04;X2Y16/X04/VCC;1;X2Y16/D4;X2Y16/D4/X04;1;X2Y16/S220;X2Y16/S220/VCC;1;X2Y16/C5;X2Y16/C5/S220;1;X0Y0/W240;X0Y0/W240/VCC;1;X0Y0/C4;X0Y0/C4/E241;1;X6Y16/D2;X6Y16/D2/X08;1;X2Y17/A4;X2Y17/A4/S200;1;X2Y17/C2;X2Y17/C2/X04;1;X6Y16/X04;X6Y16/X04/VCC;1;X6Y16/C1;X6Y16/C1/X04;1;X4Y16/S220;X4Y16/S220/VCC;1;X4Y16/C5;X4Y16/C5/S220;1;X1Y16/X07;X1Y16/X07/VCC;1;X1Y16/D5;X1Y16/D5/X07;1;X3Y16/D4;X3Y16/D4/X04;1;X3Y16/D2;X3Y16/D2/X08;1;X4Y17/X04;X4Y17/X04/VCC;1;X4Y17/C0;X4Y17/C0/X04;1;X4Y16/D1;X4Y16/D1/E270;1;X3Y16/X08;X3Y16/X08/VCC;1;X3Y16/D3;X3Y16/D3/X08;1;X1Y17/C0;X1Y17/C0/X04;1;X1Y16/S220;X1Y16/S220/VCC;1;X1Y16/C5;X1Y16/C5/S220;1;X5Y16/X04;X5Y16/X04/VCC;1;X5Y16/C2;X5Y16/C2/X04;1;X5Y17/X08;X5Y17/X08/VCC;1;X5Y17/C5;X5Y17/C5/X08;1;X3Y17/X08;X3Y17/X08/VCC;1;X3Y17/C4;X3Y17/C4/X08;1;X6Y17/C3;X6Y17/C3/X04;1;X4Y16/X04;X4Y16/X04/VCC;1;X4Y16/C0;X4Y16/C0/X04;1;X3Y17/X07;X3Y17/X07/VCC;1;X3Y17/A5;X3Y17/A5/X07;1;X2Y17/X03;X2Y17/X03/VCC;1;X2Y17/A1;X2Y17/A1/X03;1;X4Y16/E270;X4Y16/E270/VCC;1;X4Y16/D0;X4Y16/D0/E270;1;X2Y17/X04;X2Y17/X04/VCC;1;X2Y17/C0;X2Y17/C0/X04;1;X6Y16/X08;X6Y16/X08/VCC;1;X6Y16/D0;X6Y16/D0/X08;1;X6Y17/C1;X6Y17/C1/X04;1;X4Y17/X08;X4Y17/X08/VCC;1;X4Y17/C5;X4Y17/C5/X08;1;X3Y16/E270;X3Y16/E270/VCC;1;X3Y16/D0;X3Y16/D0/E270;1;X2Y16/D2;X2Y16/D2/X03;1;X3Y16/D5;X3Y16/D5/X04;1;X5Y16/S260;X5Y16/S260/VCC;1;X5Y16/D1;X5Y16/D1/S260;1;X5Y17/X04;X5Y17/X04/VCC;1;X5Y17/C2;X5Y17/C2/X04;1;X2Y17/X08;X2Y17/X08/VCC;1;X2Y17/C4;X2Y17/C4/X08;1;X3Y17/X04;X3Y17/X04/VCC;1;X3Y17/C2;X3Y17/C2/X04;1;X5Y16/S270;X5Y16/S270/VCC;1;X5Y16/D2;X5Y16/D2/S270;1;X3Y16/S220;X3Y16/S220/VCC;1;X3Y16/C5;X3Y16/C5/S220;1;X6Y16/W220;X6Y16/W220/VCC;1;X6Y16/C2;X6Y16/C2/W220;1;X2Y17/S200;X2Y17/S200/VCC;1;X2Y17/A5;X2Y17/A5/S200;1;X6Y17/X04;X6Y17/X04/VCC;1;X6Y17/C0;X6Y17/C0/X04;1;X2Y16/X03;X2Y16/X03/VCC;1;X2Y16/D3;X2Y16/D3/X03;1;X3Y16/X04;X3Y16/X04/VCC;1;X3Y16/C3;X3Y16/C3/X04;1;X5Y16/N220;X5Y16/N220/VCC;1;X5Y16/C0;X5Y16/C0/N220;1;X0Y0/VCC;;1;X1Y17/X04;X1Y17/X04/VCC;1;X1Y17/C1;X1Y17/C1/X04;1"
           }
         },
         "delay_counter_DFFR_Q_10_D_ALU_SUM_COUT": {
           "hide_name": 0,
           "bits": [ 7593 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/COUT4;;1",
+            "ROUTING": "X4Y16/COUT4;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5334,7 +5248,7 @@
           "hide_name": 0,
           "bits": [ 7592 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/COUT3;;1",
+            "ROUTING": "X4Y16/COUT3;;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:19.22-19.39|/opt/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:57.7-63.5|/opt/oss-cad-suite/lib/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "abc9_carry": "00000000000000000000000000000001"
           }
@@ -5343,7 +5257,7 @@
           "hide_name": 0,
           "bits": [ 7590 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/E100;X4Y17/E100/Q4;1;X5Y17/N200;X5Y17/N200/E101;1;X5Y15/X03;X5Y15/X03/N202;1;X5Y15/B4;X5Y15/B4/X03;1;X4Y17/Q4;;1;X4Y17/X03;X4Y17/X03/Q4;1;X4Y17/B4;X4Y17/B4/X03;1",
+            "ROUTING": "X4Y16/SN20;X4Y16/SN20/Q4;1;X4Y17/B4;X4Y17/B4/S121;1;X4Y16/Q4;;1;X4Y16/X03;X4Y16/X03/Q4;1;X4Y16/B4;X4Y16/B4/X03;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5351,14 +5265,14 @@
           "hide_name": 0,
           "bits": [ 7589 ] ,
           "attributes": {
-            "ROUTING": "X4Y17/F4;;1;X4Y17/XD4;X4Y17/XD4/F4;1"
+            "ROUTING": "X4Y16/F4;;1;X4Y16/XD4;X4Y16/XD4/F4;1"
           }
         },
         "delay_counter[30]": {
           "hide_name": 0,
           "bits": [ 7587 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/EW10;X6Y17/EW10/Q5;1;X7Y17/N210;X7Y17/N210/E111;1;X7Y15/B1;X7Y15/B1/N212;1;X6Y17/Q5;;1;X6Y17/W250;X6Y17/W250/Q5;1;X6Y17/B1;X6Y17/B1/W250;1",
+            "ROUTING": "X6Y16/B1;X6Y16/B1/S240;1;X6Y16/Q4;;1;X6Y16/S240;X6Y16/S240/Q4;1;X6Y17/X05;X6Y17/X05/S241;1;X6Y17/B1;X6Y17/B1/X05;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5366,21 +5280,21 @@
           "hide_name": 0,
           "bits": [ 7586 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/F1;;1;X6Y17/X02;X6Y17/X02/F1;1;X6Y17/D5;X6Y17/D5/X02;1"
+            "ROUTING": "X6Y16/F1;;1;X6Y16/X02;X6Y16/X02/F1;1;X6Y16/D4;X6Y16/D4/X02;1"
           }
         },
         "delay_counter_DFFR_Q_30_D_ALU_SUM_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_ALU_CIN_COUT_LUT3_I0_F": {
           "hide_name": 0,
           "bits": [ 7583 ] ,
           "attributes": {
-            "ROUTING": "X1Y16/S210;X1Y16/S210/W212;1;X1Y18/S210;X1Y18/S210/S212;1;X1Y19/CE1;X1Y19/CE1/S211;1;X1Y16/LSR2;X1Y16/LSR2/W212;1;X1Y17/LSR2;X1Y17/LSR2/W212;1;X3Y17/LSR0;X3Y17/LSR0/X08;1;X1Y16/CE1;X1Y16/CE1/W212;1;X6Y17/LSR1;X6Y17/LSR1/E271;1;X4Y17/LSR1;X4Y17/LSR1/E271;1;X5Y17/LSR1;X5Y17/LSR1/E272;1;X1Y17/LSR1;X1Y17/LSR1/W212;1;X2Y17/LSR0;X2Y17/LSR0/W211;1;X4Y17/LSR2;X4Y17/LSR2/E271;1;X3Y17/LSR1;X3Y17/LSR1/X08;1;X5Y17/LSR0;X5Y17/LSR0/E272;1;X1Y20/CE2;X1Y20/CE2/W212;1;X2Y16/LSR0;X2Y16/LSR0/W211;1;X2Y17/LSR2;X2Y17/LSR2/W211;1;X3Y16/X06;X3Y16/X06/F1;1;X3Y16/LSR1;X3Y16/LSR1/X06;1;X4Y17/LSR0;X4Y17/LSR0/E271;1;X5Y17/E270;X5Y17/E270/E272;1;X6Y17/LSR2;X6Y17/LSR2/E271;1;X3Y17/X08;X3Y17/X08/S211;1;X3Y17/LSR2;X3Y17/LSR2/X08;1;X3Y16/S810;X3Y16/S810/F1;1;X3Y20/W210;X3Y20/W210/S814;1;X1Y20/CE0;X1Y20/CE0/W212;1;X3Y16/S210;X3Y16/S210/F1;1;X3Y17/W210;X3Y17/W210/S211;1;X2Y17/LSR1;X2Y17/LSR1/W211;1;X3Y17/E270;X3Y17/E270/S131;1;X5Y17/LSR2;X5Y17/LSR2/E272;1;X1Y16/N210;X1Y16/N210/W212;1;X1Y15/CE2;X1Y15/CE2/N211;1;X3Y16/S130;X3Y16/S130/F1;1;X1Y15/CE0;X1Y15/CE0/N211;1;X2Y16/LSR1;X2Y16/LSR1/W211;1;X3Y16/F1;;1;X3Y16/W210;X3Y16/W210/F1;1;X1Y16/LSR0;X1Y16/LSR0/W212;1"
+            "ROUTING": "X3Y15/LSR2;X3Y15/LSR2/X08;1;X2Y15/X08;X2Y15/X08/W272;1;X2Y15/LSR0;X2Y15/LSR0/X08;1;X3Y14/W210;X3Y14/W210/N212;1;X1Y14/CE0;X1Y14/CE0/W212;1;X6Y16/LSR2;X6Y16/LSR2/X07;1;X3Y17/W210;X3Y17/W210/S211;1;X1Y17/LSR1;X1Y17/LSR1/W212;1;X5Y16/LSR1;X5Y16/LSR1/X07;1;X1Y14/CE2;X1Y14/CE2/W212;1;X3Y16/LSR0;X3Y16/LSR0/X07;1;X2Y16/LSR0;X2Y16/LSR0/X07;1;X3Y15/X08;X3Y15/X08/N211;1;X4Y15/W270;X4Y15/W270/N131;1;X4Y16/LSR0;X4Y16/LSR0/X07;1;X3Y16/S210;X3Y16/S210/W111;1;X3Y15/LSR0;X3Y15/LSR0/X08;1;X1Y15/LSR0;X1Y15/LSR0/W212;1;X4Y16/LSR1;X4Y16/LSR1/X07;1;X3Y16/N210;X3Y16/N210/W111;1;X3Y15/W210;X3Y15/W210/N211;1;X1Y15/CE2;X1Y15/CE2/W212;1;X1Y20/CE1;X1Y20/CE1/W212;1;X6Y16/X07;X6Y16/X07/E262;1;X6Y16/LSR0;X6Y16/LSR0/X07;1;X4Y16/EW10;X4Y16/EW10/F6;1;X3Y16/S810;X3Y16/S810/W111;1;X3Y20/W210;X3Y20/W210/S814;1;X1Y20/CE2;X1Y20/CE2/W212;1;X4Y16/X07;X4Y16/X07/F6;1;X4Y16/LSR2;X4Y16/LSR2/X07;1;X4Y16/N130;X4Y16/N130/F6;1;X4Y15/E270;X4Y15/E270/N131;1;X5Y15/LSR1;X5Y15/LSR1/E271;1;X5Y16/LSR0;X5Y16/LSR0/X07;1;X2Y16/LSR1;X2Y16/LSR1/X07;1;X4Y16/E260;X4Y16/E260/F6;1;X5Y16/X07;X5Y16/X07/E261;1;X5Y16/LSR2;X5Y16/LSR2/X07;1;X1Y16/LSR2;X1Y16/LSR2/W212;1;X3Y16/W210;X3Y16/W210/W111;1;X1Y16/LSR1;X1Y16/LSR1/W212;1;X2Y16/X07;X2Y16/X07/W262;1;X2Y16/LSR2;X2Y16/LSR2/X07;1;X3Y16/LSR1;X3Y16/LSR1/X07;1;X4Y16/F6;;1;X4Y16/W260;X4Y16/W260/F6;1;X3Y16/X07;X3Y16/X07/W261;1;X3Y16/LSR2;X3Y16/LSR2/X07;1"
           }
         },
         "delay_counter[31]": {
           "hide_name": 0,
           "bits": [ 7582 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/E130;X6Y17/E130/Q2;1;X7Y17/N230;X7Y17/N230/E131;1;X7Y15/B2;X7Y15/B2/N232;1;X6Y17/Q2;;1;X6Y17/X01;X6Y17/X01/Q2;1;X6Y17/B2;X6Y17/B2/X01;1",
+            "ROUTING": "X6Y16/S130;X6Y16/S130/Q5;1;X6Y16/B2;X6Y16/B2/S130;1;X6Y16/Q5;;1;X6Y16/SN10;X6Y16/SN10/Q5;1;X6Y17/B2;X6Y17/B2/S111;1",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:16.33-16.46"
           }
         },
@@ -5388,14 +5302,14 @@
           "hide_name": 0,
           "bits": [ 7581 ] ,
           "attributes": {
-            "ROUTING": "X6Y17/F2;;1;X6Y17/XD2;X6Y17/XD2/F2;1"
+            "ROUTING": "X6Y16/F2;;1;X6Y16/D5;X6Y16/D5/F2;1"
           }
         },
         "clk_IBUF_I_O": {
           "hide_name": 0,
           "bits": [ 7578 ] ,
           "attributes": {
-            "ROUTING": "X1Y15/CLK2;X1Y15/CLK2/GB00;5;X2Y19/GB00;X3Y19/GBO0/GT00;5;X1Y19/CLK1;X1Y19/CLK1/GB00;5;X1Y20/CLK2;X1Y20/CLK2/GB00;5;X2Y20/GB00;X3Y20/GBO0/GT00;5;X1Y20/CLK0;X1Y20/CLK0/GB00;5;X1Y16/CLK1;X1Y16/CLK1/GB00;5;X2Y15/GB00;X3Y15/GBO0/GT00;5;X1Y15/CLK0;X1Y15/CLK0/GB00;5;X5Y17/CLK0;X5Y17/CLK0/GB00;5;X5Y17/CLK1;X5Y17/CLK1/GB00;5;X1Y16/CLK0;X1Y16/CLK0/GB00;5;X5Y17/CLK2;X5Y17/CLK2/GB00;5;X1Y17/CLK1;X1Y17/CLK1/GB00;5;X1Y17/CLK2;X1Y17/CLK2/GB00;5;X1Y16/CLK2;X1Y16/CLK2/GB00;5;X2Y17/CLK0;X2Y17/CLK0/GB00;5;X2Y16/CLK0;X2Y16/CLK0/GB00;5;X2Y16/CLK1;X2Y16/CLK1/GB00;5;X2Y17/CLK1;X2Y17/CLK1/GB00;5;X2Y17/CLK2;X2Y17/CLK2/GB00;5;X3Y17/CLK0;X3Y17/CLK0/GB00;5;X2Y16/GB00;X3Y16/GBO0/GT00;5;X3Y16/CLK1;X3Y16/CLK1/GB00;5;X3Y17/CLK1;X3Y17/CLK1/GB00;5;X3Y17/CLK2;X3Y17/CLK2/GB00;5;X4Y17/CLK0;X4Y17/CLK0/GB00;5;X4Y17/CLK1;X4Y17/CLK1/GB00;5;X3Y19/GT00;X3Y19/GT00/SPINE16;5;X5Y17/GB00;X3Y17/GBO0/GT00;5;X4Y17/CLK2;X4Y17/CLK2/GB00;5;X6Y17/CLK2;X6Y17/CLK2/GB00;5;X11Y19/SPINE16;X27Y9/SPINE16/PCLKR1;5;X7Y11/GT00;X7Y19/GT00/SPINE16;5;X6Y17/GB00;X7Y17/GBO0/GT00;5;X6Y17/CLK1;X6Y17/CLK1/GB00;5;X46Y18/LWSPINETR2;;5"
+            "ROUTING": "X1Y14/CLK0;X1Y14/CLK0/GB00;5;X1Y15/CLK2;X1Y15/CLK2/GB00;5;X1Y20/CLK1;X1Y20/CLK1/GB00;5;X2Y20/GB00;X3Y20/GBO0/GT00;5;X1Y20/CLK2;X1Y20/CLK2/GB00;5;X4Y14/GB00;X3Y14/GBO0/GT00;5;X1Y14/CLK2;X1Y14/CLK2/GB00;5;X5Y16/CLK0;X5Y16/CLK0/GB00;5;X5Y15/CLK1;X5Y15/CLK1/GB00;5;X5Y16/CLK1;X5Y16/CLK1/GB00;5;X1Y15/CLK0;X1Y15/CLK0/GB00;5;X5Y17/GB00;X3Y17/GBO0/GT00;5;X1Y17/CLK1;X1Y17/CLK1/GB00;5;X5Y16/CLK2;X5Y16/CLK2/GB00;5;X1Y16/CLK1;X1Y16/CLK1/GB00;5;X1Y16/CLK2;X1Y16/CLK2/GB00;5;X2Y16/CLK0;X2Y16/CLK0/GB00;5;X2Y15/CLK0;X2Y15/CLK0/GB00;5;X2Y16/CLK1;X2Y16/CLK1/GB00;5;X2Y16/CLK2;X2Y16/CLK2/GB00;5;X3Y16/CLK0;X3Y16/CLK0/GB00;5;X6Y16/CLK0;X6Y16/CLK0/GB00;5;X3Y15/CLK2;X3Y15/CLK2/GB00;5;X3Y16/CLK1;X3Y16/CLK1/GB00;5;X3Y16/CLK2;X3Y16/CLK2/GB00;5;X2Y15/GB00;X3Y15/GBO0/GT00;5;X3Y15/CLK0;X3Y15/CLK0/GB00;5;X4Y16/CLK0;X4Y16/CLK0/GB00;5;X4Y16/CLK1;X4Y16/CLK1/GB00;5;X3Y19/GT00;X3Y19/GT00/SPINE16;5;X2Y16/GB00;X3Y16/GBO0/GT00;5;X4Y16/CLK2;X4Y16/CLK2/GB00;5;X11Y19/SPINE16;X27Y9/SPINE16/PCLKR1;5;X7Y11/GT00;X7Y19/GT00/SPINE16;5;X7Y16/GB00;X7Y16/GBO0/GT00;5;X6Y16/CLK2;X6Y16/CLK2/GB00;5;X46Y18/LWSPINETR2;;5"
           }
         },
         "clk": {

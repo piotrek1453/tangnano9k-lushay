@@ -8,7 +8,7 @@ module counter #(
     output wire [NUMBER_OF_LEDS-1:0] led
 );
 
-  localparam integer LedsNo = $bits(led);
+  localparam integer LedsNo = $bits(led) - 1;
 
   // initialize for cyclic shift
   reg [LedsNo:0] led_buffer = ~'d1;

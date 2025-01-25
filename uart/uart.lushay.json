@@ -1,0 +1,6 @@
+{
+    "name": "uart",
+    "includedFiles": ["uart.sv"],
+    "constraintsFile": "uart.cst",
+    "top": "uart"
+}
