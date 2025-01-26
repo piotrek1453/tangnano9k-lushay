@@ -1,0 +1,260 @@
+{
+  "creator": "Yosys 0.46+135 (git sha1 b2d78589e, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)",
+  "modules": {
+    "counter": {
+      "attributes": {
+        "dynports": 1,
+        "cells_not_processed": 1,
+        "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:3.1-29.10"
+      },
+      "parameter_default_values": {
+        "DELAY_CYCLES": 13500000,
+        "NUMBER_OF_LEDS": 6
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "led": {
+          "direction": "output",
+          "bits": [ 3, 4, 5, 6, 7, 8 ]
+        }
+      },
+      "cells": {
+        "$add$/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:19$2": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 32,
+            "B_SIGNED": 0,
+            "B_WIDTH": 32,
+            "Y_WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:19.22-19.39"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+            "B": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72 ]
+          }
+        },
+        "$ge$/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20$3": {
+          "hide_name": 1,
+          "type": "$ge",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 32,
+            "B_SIGNED": 0,
+            "B_WIDTH": 32,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.9-20.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+            "B": [ "0", "0", "0", "0", "0", "1", "1", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1", "0", "1", "1", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 73 ]
+          }
+        },
+        "$procdff$10": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": 1,
+            "WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:18.3-25.6"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 74, 75, 76, 77, 78, 79 ],
+            "Q": [ 3, 4, 5, 6, 7, 8 ]
+          }
+        },
+        "$procdff$11": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": 1,
+            "WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:18.3-25.6"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111 ],
+            "Q": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+          }
+        },
+        "$procmux$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 32
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.9-20.38|/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.5-24.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72 ],
+            "B": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 73 ],
+            "Y": [ 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111 ]
+          }
+        },
+        "$procmux$8": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 6
+          },
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.9-20.38|/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.5-24.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3, 4, 5, 6, 7, 8 ],
+            "B": [ 8, 3, 4, 5, 6, 7 ],
+            "S": [ 73 ],
+            "Y": [ 74, 75, 76, 77, 78, 79 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\delay_counter[31:0]": {
+          "hide_name": 1,
+          "bits": [ 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:18.3-25.6"
+          }
+        },
+        "$0\\led_buffer[5:0]": {
+          "hide_name": 1,
+          "bits": [ 74, 75, 76, 77, 78, 79 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:18.3-25.6"
+          }
+        },
+        "$1\\delay_counter[31:0]": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:16.33-16.50"
+          }
+        },
+        "$1\\led_buffer[5:0]": {
+          "hide_name": 1,
+          "bits": [ "0", "1", "1", "1", "1", "1" ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:14.18-14.35"
+          }
+        },
+        "$add$/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:19$2_Y": {
+          "hide_name": 1,
+          "bits": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:19.22-19.39"
+          }
+        },
+        "$ge$/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20$3_Y": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:20.9-20.38"
+          }
+        },
+        "$procmux$6_Y": {
+          "hide_name": 1,
+          "bits": [ 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111 ],
+          "attributes": {
+          }
+        },
+        "$procmux$7_CMP": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+          }
+        },
+        "$procmux$8_Y": {
+          "hide_name": 1,
+          "bits": [ 74, 75, 76, 77, 78, 79 ],
+          "attributes": {
+          }
+        },
+        "$procmux$9_CMP": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:7.16-7.19"
+          }
+        },
+        "delay_counter": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+          "attributes": {
+            "init": 0,
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:16.33-16.46"
+          }
+        },
+        "led": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6, 7, 8 ],
+          "attributes": {
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:8.38-8.41"
+          }
+        },
+        "led_buffer": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6, 7, 8 ],
+          "attributes": {
+            "init": 62,
+            "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.v:14.18-14.28"
+          }
+        }
+      }
+    }
+  }
+}

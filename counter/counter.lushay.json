@@ -1,6 +1,6 @@
 {
     "name": "counter",
-    "includedFiles": ["counter.sv"],
+    "includedFiles": ["counter.v"],
     "constraintsFile": "counter.cst",
     "top": "counter"
 }

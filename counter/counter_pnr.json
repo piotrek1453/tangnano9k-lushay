@@ -554,7 +554,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y14/IOBA",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },
@@ -578,7 +578,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y15/IOBB",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },
@@ -602,7 +602,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y20/IOBB",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },
@@ -626,7 +626,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y21/IOBB",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },
@@ -650,7 +650,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y24/IOBB",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },
@@ -674,7 +674,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000101",
             "NEXTPNR_BEL": "X0Y25/IOBB",
             "src": "/home/juchap/kodzenie/fpga/tang_nano_9k/tangnano9k-lushay/counter/counter.sv:8.38-8.41",
-            "&DRIVE=8": "00000000000000000000000000000001",
+            "&DRIVE=24": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
             "keep": "00000000000000000000000000000001"
           },

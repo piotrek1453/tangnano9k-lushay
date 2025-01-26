@@ -1,0 +1,6 @@
+{
+    "name": "oled",
+    "includedFiles": ["oled.v"],
+    "constraintsFile": "tangnano9k.cst",
+    "top": "oled"
+}
